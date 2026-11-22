@@ -1,0 +1,13 @@
+INCLUDE:
+  - ../../fragments/base_modern.yaml
+  - ../../fragments/models/ui_venus.yaml
+OUTPUT_DIR: "artifacts/runs/ui_venus"
+METRICS_DIR: "metrics"
+MODEL:
+  NAME: UI-Venus-Navi-7B
+  QWENVL_MODEL: UI-Venus-Navi-7B
+DATA:
+  DATASET: amex
+  SPLIT: val_id_app
+  USE_SCREEN_TAG: true
+  BBOX_FORMAT: relative_int

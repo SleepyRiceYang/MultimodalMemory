@@ -1,0 +1,7 @@
+{
+  "n": 12,
+  "selection": "first frozen ID per domain, plus second Calc and VLC IDs; no outcome-based selection",
+  "source": "mmskills_40_seed20261110/test_40.json",
+  "development_only": true,
+  "scope": "10 domains; includes previous smoke_3"
+}

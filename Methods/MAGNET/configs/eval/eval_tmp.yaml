@@ -1,0 +1,5 @@
+INCLUDE:
+  - ../fragments/base_modern.yaml
+  - ../fragments/modes/coat/coat_bbox.yaml
+  - ../fragments/models/gemini_coat.yaml
+OUTPUT_DIR: artifacts/runs/tmp_eval

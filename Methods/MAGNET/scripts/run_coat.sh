@@ -1,0 +1,12 @@
+python scripts/workflows/run_all_model_pairs.py \
+    --base-config configs/presets/coat/qwenvl_coat.yaml \
+    --output-root artifacts/runs/qwenvl32_test \
+    --models "qwen2.5-vl-32b" "qwen2.5-vl-32b" \
+    --demo-mode coat \
+    --flow-procedural \
+    --no-predict-stationary \
+    --predict-click-mode bbox \
+    --dataset amex \
+    --subsets val_id_app \
+    --limit 20 \
+    --num-workers 16

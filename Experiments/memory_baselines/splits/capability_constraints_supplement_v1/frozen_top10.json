@@ -1,0 +1,227 @@
+{
+  "0a2e43bf-b26c-4631-a966-af9dfa12c9e5": {
+    "source": "/root/VLM-Memory/Experiments/memory_baselines/splits/capability_constraints_supplement_v1/0a2e43bf-b26c-4631-a966-af9dfa12c9e5_recall.json",
+    "candidates": [
+      {
+        "skill": "LIBREOFFICECALC_Apply_Revenue_Cost_Discount_Profit_Formulas",
+        "name": "Apply Revenue Cost Discount Profit Formulas",
+        "description": "Build business-metric columns such as revenue, cost, discount, or profit from visible Calc source columns, then verify the target output column before moving on.",
+        "cosine_similarity": 0.29342660307884216
+      },
+      {
+        "skill": "LIBREOFFICECALC_Create_Sparklines_or_Cell_Embedded_Trend_Visuals",
+        "name": "Create Sparklines or Cell Embedded Trend Visuals",
+        "description": "Create compact cell-embedded trend or intensity visuals such as sparklines, data bars, or color scales when the task wants an in-cell visual result instead of a full chart canvas.",
+        "cosine_similarity": 0.2773694396018982
+      },
+      {
+        "skill": "LIBREOFFICECALC_Format_Calc_Chart_Elements_and_Series",
+        "name": "Format Calc Chart Elements and Series",
+        "description": "Adjust chart legends, axes, series styles, labels, line types, and secondary-axis settings after the chart already exists.",
+        "cosine_similarity": 0.2758650779724121
+      },
+      {
+        "skill": "LIBREOFFICECALC_Create_Chart_on_Target_Sheet_with_Exact_Title_and_Type",
+        "name": "Create Chart on Target Sheet with Exact Title and Type",
+        "description": "Create a chart on the requested destination sheet while honoring an exact chart title and chart family.",
+        "cosine_similarity": 0.27358561754226685
+      },
+      {
+        "skill": "LIBREOFFICEIMPRESS_Insert_and_Edit_Charts",
+        "name": "Insert and Edit Charts",
+        "description": "Insert a chart, open chart-specific editing surfaces, and verify the resulting chart data state before leaving chart editing.",
+        "cosine_similarity": 0.2597861588001251
+      },
+      {
+        "skill": "LIBREOFFICECALC_Insert_and_Structure_Calc_Charts",
+        "name": "Insert and Structure Calc Charts",
+        "description": "Insert chart types, choose source ranges, and keep the wizard or chart canvas aligned with the requested structure before later formatting steps.",
+        "cosine_similarity": 0.24847327172756195
+      },
+      {
+        "skill": "LIBREOFFICECALC_Create_Calc_Pivot_Tables_with_Aggregations_and_Filters",
+        "name": "Create Calc Pivot Tables with Aggregations and Filters",
+        "description": "Create Calc pivot tables from the intended source range, place fields into the correct layout buckets, choose non-default aggregations, and verify renamed or filtered pivot output on the result sheet.",
+        "cosine_similarity": 0.24588678777217865
+      },
+      {
+        "skill": "LIBREOFFICECALC_Run_Calc_Statistical_Tests_and_Summaries",
+        "name": "Run Calc Statistical Tests and Summaries",
+        "description": "Run statistical tools or summary functions that are more specialized than ordinary worksheet formulas.",
+        "cosine_similarity": 0.24061763286590576
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Create_and_Format_Tables",
+        "name": "Create and Format Tables",
+        "description": "Insert new tables, change row or column structure, and apply table formatting such as fills, borders, or row height adjustments.",
+        "cosine_similarity": 0.2398366779088974
+      },
+      {
+        "skill": "LIBREOFFICECALC_Build_Merged_Report_Headers_and_Multi_Row_Layouts",
+        "name": "Build Merged Report Headers and Multi Row Layouts",
+        "description": "Merge header ranges, handle hidden-cell warnings deliberately, and verify that multi-row report headers still span the intended block after the merge.",
+        "cosine_similarity": 0.2383410930633545
+      }
+    ],
+    "policy": "task_only_minicpm_cosine_top10_llm_up_to_three_or_null_v3",
+    "embedding": {
+      "model": "openbmb/MiniCPM-Embedding",
+      "revision": "dc0f82b4466b254dddc25787bf7b1cbc28f755b0",
+      "dimension": 2304,
+      "normalized": true,
+      "max_tokens": 512,
+      "pooling": "model_scaled_hidden_states_then_masked_mean",
+      "query_prefix": "Query: "
+    }
+  },
+  "4188d3a4-077d-46b7-9c86-23e1a036f6c1": {
+    "source": "/root/VLM-Memory/Experiments/memory_baselines/splits/capability_constraints_supplement_v1/4188d3a4-077d-46b7-9c86-23e1a036f6c1_recall.json",
+    "candidates": [
+      {
+        "skill": "LIBREOFFICECALC_Manage_Calc_Rows_Columns_Freeze_and_Split_Views",
+        "name": "Manage Calc Rows Columns Freeze and Split Views",
+        "description": "Resize, hide, move, or freeze worksheet rows and columns and handle split or zoom-like view controls without mixing them into formatting-only tasks.",
+        "cosine_similarity": 0.3951793313026428
+      },
+      {
+        "skill": "LIBREOFFICECALC_Build_Merged_Report_Headers_and_Multi_Row_Layouts",
+        "name": "Build Merged Report Headers and Multi Row Layouts",
+        "description": "Merge header ranges, handle hidden-cell warnings deliberately, and verify that multi-row report headers still span the intended block after the merge.",
+        "cosine_similarity": 0.36140650510787964
+      },
+      {
+        "skill": "LIBREOFFICEIMPRESS_Insert_and_Format_Tables",
+        "name": "Insert and Format Tables",
+        "description": "Insert a table, edit cells or headers while the table stays active, and verify the resulting structure on the slide canvas.",
+        "cosine_similarity": 0.2676013112068176
+      },
+      {
+        "skill": "LIBREOFFICECALC_Sort_and_Filter_Calc_Tables",
+        "name": "Sort and Filter Calc Tables",
+        "description": "Apply sorts, auto-filters, and range filters to Calc tables and verify the visible filtered rows or ordering on the sheet.",
+        "cosine_similarity": 0.24763695895671844
+      },
+      {
+        "skill": "LIBREOFFICECALC_Format_Calc_Cell_Text_Alignment_and_Borders",
+        "name": "Format Calc Cell Text Alignment and Borders",
+        "description": "Apply direct cell formatting such as font weight, font size, alignment, fill, and borders, then verify that the requested style landed only on the intended range.",
+        "cosine_similarity": 0.24727672338485718
+      },
+      {
+        "skill": "LIBREOFFICECALC_Highlight_Weekend_or_Rule_Matched_Cells",
+        "name": "Highlight Weekend or Rule Matched Cells",
+        "description": "Highlight cells or rows that match visible weekend or value rules when the end state is a directly visible on-sheet match result rather than a dialog-centric conditional-format authoring flow.",
+        "cosine_similarity": 0.24279409646987915
+      },
+      {
+        "skill": "LIBREOFFICECALC_Fill_Copy_Paste_and_Split_Calc_Data",
+        "name": "Fill Copy Paste and Split Calc Data",
+        "description": "Copy, paste, fill down, duplicate rows, or split text into columns while protecting existing values and keeping the destination range aligned with the task.",
+        "cosine_similarity": 0.24051716923713684
+      },
+      {
+        "skill": "LIBREOFFICECALC_Create_Chart_on_Target_Sheet_with_Exact_Title_and_Type",
+        "name": "Create Chart on Target Sheet with Exact Title and Type",
+        "description": "Create a chart on the requested destination sheet while honoring an exact chart title and chart family.",
+        "cosine_similarity": 0.22935345768928528
+      },
+      {
+        "skill": "LIBREOFFICECALC_Protect_Calc_Sheets_and_Allowed_Actions",
+        "name": "Protect Calc Sheets and Allowed Actions",
+        "description": "Protect worksheets, set passwords, and control allowed actions for protected sheets.",
+        "cosine_similarity": 0.22776252031326294
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Insert_Page_Numbers_Headers_Footers_and_Blank_Pages",
+        "name": "Insert Page Numbers, Headers, Footers, and Blank Pages",
+        "description": "Enable page-style headers or footers, insert page numbers, add blank pages, and verify the structural result on the document canvas.",
+        "cosine_similarity": 0.22358103096485138
+      }
+    ],
+    "policy": "task_only_minicpm_cosine_top10_llm_up_to_three_or_null_v3",
+    "embedding": {
+      "model": "openbmb/MiniCPM-Embedding",
+      "revision": "dc0f82b4466b254dddc25787bf7b1cbc28f755b0",
+      "dimension": 2304,
+      "normalized": true,
+      "max_tokens": 512,
+      "pooling": "model_scaled_hidden_states_then_masked_mean",
+      "query_prefix": "Query: "
+    }
+  },
+  "a9f325aa-8c05-4e4f-8341-9e4358565f4f": {
+    "source": "/root/VLM-Memory/Experiments/memory_baselines/splits/capability_constraints_supplement_v1/a9f325aa-8c05-4e4f-8341-9e4358565f4f_recall.json",
+    "candidates": [
+      {
+        "skill": "LIBREOFFICECALC_Text_Cleaning_Case_Transforms_and_Normalization",
+        "name": "Text Cleaning Case Transforms and Normalization",
+        "description": "Transform selected Calc text to uppercase, lowercase, or capitalize-each-word forms and keep text-cleanup workflows aligned with the requested normalization target.",
+        "cosine_similarity": 0.39202603697776794
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Cleanup_Highlights_Markers_and_Sentence_Spacing",
+        "name": "Cleanup Highlights, Markers, and Sentence Spacing",
+        "description": "Remove stale highlighting or inline markers and use scope-aware replace workflows to clean spacing or split sentence blocks without collapsing unrelated text.",
+        "cosine_similarity": 0.3273719847202301
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Prepare_Structured_Text_For_Sorting_and_Deduplication",
+        "name": "Prepare Structured Text for Sorting and Deduplication",
+        "description": "Convert record-like text into a sortable table and reach the sort surface so duplicate-heavy records can be grouped or cleaned instead of being forced through text-to-table alone.",
+        "cosine_similarity": 0.322786808013916
+      },
+      {
+        "skill": "LIBREOFFICECALC_Fill_Copy_Paste_and_Split_Calc_Data",
+        "name": "Fill Copy Paste and Split Calc Data",
+        "description": "Copy, paste, fill down, duplicate rows, or split text into columns while protecting existing values and keeping the destination range aligned with the task.",
+        "cosine_similarity": 0.3043099045753479
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Apply_Case_Transforms_and_Rule_Based_Text_Formatting",
+        "name": "Apply Case Transforms and Rule-Based Text Formatting",
+        "description": "Convert selected text between uppercase, lowercase, sentence case, or capitalize-each-word variants and verify the requested text form is visible on the page.",
+        "cosine_similarity": 0.29924964904785156
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Regex_Based_Text_Classification_and_Batch_Formatting",
+        "name": "Regex-Based Text Classification and Batch Formatting",
+        "description": "Use regular expressions inside Find and Replace to classify repeated text patterns, then apply formatting changes in controlled passes rather than one literal replacement.",
+        "cosine_similarity": 0.2481803447008133
+      },
+      {
+        "skill": "LIBREOFFICECALC_Edit_Calc_Cell_Values_Comments_and_Find_Replace",
+        "name": "Edit Calc Cell Values Comments and Find Replace",
+        "description": "Type or replace cell content, add labels, manage comments, and use find/replace flows when the task is about literal cell edits.",
+        "cosine_similarity": 0.20791855454444885
+      },
+      {
+        "skill": "VLC_Convert_Or_Extract_Audio_To_MP3",
+        "name": "Convert Or Extract Audio To MP3",
+        "description": "Use VLC's Convert/Save flow to extract MP3 with the exact requested destination path and filename. Avoid drifting into Preferences unless a persistent saved default is explicitly required.",
+        "cosine_similarity": 0.20551618933677673
+      },
+      {
+        "skill": "LIBREOFFICECALC_Sort_and_Filter_Calc_Tables",
+        "name": "Sort and Filter Calc Tables",
+        "description": "Apply sorts, auto-filters, and range filters to Calc tables and verify the visible filtered rows or ordering on the sheet.",
+        "cosine_similarity": 0.19752134382724762
+      },
+      {
+        "skill": "OS_Copy_Matching_Files_Or_Directory_Hierarchy_In_Terminal",
+        "name": "Copy Matching Files In Terminal",
+        "description": "Flat-copy matching files into a destination directory from Terminal and verify the copied file set without accidentally preserving the whole source tree.",
+        "cosine_similarity": 0.19735097885131836
+      }
+    ],
+    "policy": "task_only_minicpm_cosine_top10_llm_up_to_three_or_null_v3",
+    "embedding": {
+      "model": "openbmb/MiniCPM-Embedding",
+      "revision": "dc0f82b4466b254dddc25787bf7b1cbc28f755b0",
+      "dimension": 2304,
+      "normalized": true,
+      "max_tokens": 512,
+      "pooling": "model_scaled_hidden_states_then_masked_mean",
+      "query_prefix": "Query: "
+    }
+  }
+}

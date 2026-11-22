@@ -1,0 +1,74 @@
+[
+  {
+    "left": "workflow_23",
+    "right": "workflow_78",
+    "equivalent": true,
+    "reason": "Same vertical single-series bar method and conditions, paraphrased."
+  },
+  {
+    "left": "workflow_28",
+    "right": "workflow_83",
+    "equivalent": true,
+    "reason": "Same multi-subplot line chart and spine-adjustment method."
+  },
+  {
+    "left": "workflow_28",
+    "right": "workflow_117",
+    "equivalent": true,
+    "reason": "Same multi-subplot line chart and spine-adjustment method."
+  },
+  {
+    "left": "workflow_85",
+    "right": "workflow_92",
+    "equivalent": true,
+    "reason": "Same single-series bars, value annotations, axis labels, grid and saving."
+  },
+  {
+    "left": "workflow_84",
+    "right": "workflow_102",
+    "equivalent": true,
+    "reason": "Same grouped two-series percentage bar plotting pattern."
+  },
+  {
+    "left": "workflow_0",
+    "right": "workflow_1",
+    "equivalent": false,
+    "reason": "Different orientation and bar vs barh primitive."
+  },
+  {
+    "left": "workflow_0",
+    "right": "workflow_2",
+    "equivalent": false,
+    "reason": "Single vs offset multiple series."
+  },
+  {
+    "left": "workflow_5",
+    "right": "workflow_7",
+    "equivalent": false,
+    "reason": "Connected lines vs scatter points."
+  },
+  {
+    "left": "workflow_3",
+    "right": "workflow_54",
+    "equivalent": false,
+    "reason": "Molecular connectivity vs geometric point/line relationships."
+  },
+  {
+    "left": "workflow_28",
+    "right": "workflow_5",
+    "equivalent": false,
+    "reason": "Multiple subplots and spine placement vs single-axis line chart."
+  },
+  {
+    "left": "workflow_62",
+    "right": "workflow_64",
+    "equivalent": false,
+    "reason": "Centered document text vs table-of-contents layout."
+  },
+  {
+    "left": "workflow_2",
+    "right": "workflow_7",
+    "equivalent": false,
+    "reason": "Grouped bars vs scatter points."
+  }
+]

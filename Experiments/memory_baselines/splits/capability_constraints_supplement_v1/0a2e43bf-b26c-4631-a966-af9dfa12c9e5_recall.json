@@ -1,0 +1,81 @@
+{
+  "instruction": "Work out the monthly total sales in a new row called \"Total\" and then create a line chart to show the results (x-axis be Months).",
+  "candidates": [
+    {
+      "skill": "LIBREOFFICECALC_Apply_Revenue_Cost_Discount_Profit_Formulas",
+      "name": "Apply Revenue Cost Discount Profit Formulas",
+      "description": "Build business-metric columns such as revenue, cost, discount, or profit from visible Calc source columns, then verify the target output column before moving on.",
+      "cosine_similarity": 0.29342660307884216
+    },
+    {
+      "skill": "LIBREOFFICECALC_Create_Sparklines_or_Cell_Embedded_Trend_Visuals",
+      "name": "Create Sparklines or Cell Embedded Trend Visuals",
+      "description": "Create compact cell-embedded trend or intensity visuals such as sparklines, data bars, or color scales when the task wants an in-cell visual result instead of a full chart canvas.",
+      "cosine_similarity": 0.2773694396018982
+    },
+    {
+      "skill": "LIBREOFFICECALC_Format_Calc_Chart_Elements_and_Series",
+      "name": "Format Calc Chart Elements and Series",
+      "description": "Adjust chart legends, axes, series styles, labels, line types, and secondary-axis settings after the chart already exists.",
+      "cosine_similarity": 0.2758650779724121
+    },
+    {
+      "skill": "LIBREOFFICECALC_Create_Chart_on_Target_Sheet_with_Exact_Title_and_Type",
+      "name": "Create Chart on Target Sheet with Exact Title and Type",
+      "description": "Create a chart on the requested destination sheet while honoring an exact chart title and chart family.",
+      "cosine_similarity": 0.27358561754226685
+    },
+    {
+      "skill": "LIBREOFFICEIMPRESS_Insert_and_Edit_Charts",
+      "name": "Insert and Edit Charts",
+      "description": "Insert a chart, open chart-specific editing surfaces, and verify the resulting chart data state before leaving chart editing.",
+      "cosine_similarity": 0.2597861588001251
+    },
+    {
+      "skill": "LIBREOFFICECALC_Insert_and_Structure_Calc_Charts",
+      "name": "Insert and Structure Calc Charts",
+      "description": "Insert chart types, choose source ranges, and keep the wizard or chart canvas aligned with the requested structure before later formatting steps.",
+      "cosine_similarity": 0.24847327172756195
+    },
+    {
+      "skill": "LIBREOFFICECALC_Create_Calc_Pivot_Tables_with_Aggregations_and_Filters",
+      "name": "Create Calc Pivot Tables with Aggregations and Filters",
+      "description": "Create Calc pivot tables from the intended source range, place fields into the correct layout buckets, choose non-default aggregations, and verify renamed or filtered pivot output on the result sheet.",
+      "cosine_similarity": 0.24588678777217865
+    },
+    {
+      "skill": "LIBREOFFICECALC_Run_Calc_Statistical_Tests_and_Summaries",
+      "name": "Run Calc Statistical Tests and Summaries",
+      "description": "Run statistical tools or summary functions that are more specialized than ordinary worksheet formulas.",
+      "cosine_similarity": 0.24061763286590576
+    },
+    {
+      "skill": "LIBREOFFICEWRITER_Create_and_Format_Tables",
+      "name": "Create and Format Tables",
+      "description": "Insert new tables, change row or column structure, and apply table formatting such as fills, borders, or row height adjustments.",
+      "cosine_similarity": 0.2398366779088974
+    },
+    {
+      "skill": "LIBREOFFICECALC_Build_Merged_Report_Headers_and_Multi_Row_Layouts",
+      "name": "Build Merged Report Headers and Multi Row Layouts",
+      "description": "Merge header ranges, handle hidden-cell warnings deliberately, and verify that multi-row report headers still span the intended block after the merge.",
+      "cosine_similarity": 0.2383410930633545
+    }
+  ],
+  "policy": "task_only_minicpm_cosine_top10_llm_up_to_three_or_null_v3",
+  "fingerprint": "01078af7c0eb05c45f1b2dd69e673b9eeeef6d68a8f65ded352ea032d263b8aa",
+  "path": "/root/VLM-Memory/Experiments/memory_baselines/artifacts/mmskills_osworld/minicpm_index/01078af7c0eb05c45f1b2dd69e673b9eeeef6d68a8f65ded352ea032d263b8aa",
+  "embedding": {
+    "model": "openbmb/MiniCPM-Embedding",
+    "revision": "dc0f82b4466b254dddc25787bf7b1cbc28f755b0",
+    "dimension": 2304,
+    "normalized": true,
+    "max_tokens": 512,
+    "pooling": "model_scaled_hidden_states_then_masked_mean",
+    "query_prefix": "Query: "
+  },
+  "library_size": 248,
+  "query_original_tokens": 36,
+  "query_truncated": false,
+  "recall_threshold": null
+}

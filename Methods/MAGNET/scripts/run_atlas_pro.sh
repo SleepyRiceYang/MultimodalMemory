@@ -1,0 +1,12 @@
+python scripts/workflows/run_all_model_pairs.py \
+    --base-config configs/presets/coat/atlas_pro.yaml \
+    --output-root artifacts/runs/atlas_pro \
+    --models "atlas-pro-7b" \
+    --demo-mode atlas \
+    --flow-procedural \
+    --predict-stationary \
+    --predict-click-mode point \
+    --dataset amex \
+    --subsets val_id_app \
+    --limit 20 \
+    --num-workers 16

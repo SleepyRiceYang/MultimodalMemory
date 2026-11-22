@@ -1,0 +1,6 @@
+DATA:
+  DATASET: amex
+  SPLIT: val_id_app
+  DATA_DIR: ""
+  USE_SCREEN_TAG: true
+  BBOX_FORMAT: relative_int

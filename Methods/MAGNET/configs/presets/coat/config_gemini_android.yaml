@@ -1,0 +1,12 @@
+INCLUDE:
+  - ../../fragments/base_modern.yaml
+  - ../../fragments/modes/coat/coat_bbox.yaml
+  - ../../fragments/models/gemini_coat.yaml
+OUTPUT_DIR: "artifacts/runs/gemini_android_test"
+METRICS_DIR: "metrics"
+DATA:
+  SPLIT: "test"
+  DATASET: android-in-the-zoo
+  DATA_DIR: ""
+  USE_SCREEN_TAG: true
+  BBOX_FORMAT: relative_int

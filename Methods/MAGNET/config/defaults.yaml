@@ -1,0 +1,41 @@
+paths:
+  cache_root: artifacts/runtime
+  log_dir: logs
+  data_root: data
+  storage_root: artifacts/storage
+  assets_root: assets
+rag_defaults:
+  chunk_token_size: 1200
+  chunk_overlap_token_size: 100
+  tiktoken_model_name: gpt-4o-mini
+  llm_model_name: meta-llama/Llama-3.2-1B-Instruct
+  llm_max_token_size: 32768
+  llm_max_async: 16
+  embedding_batch_num: 32
+  embedding_func_max_async: 16
+  cosine_threshold: 0.7
+gui_defaults:
+  chunk_token_size: 1024
+  chunk_overlap_token_size: 128
+  tiktoken_model_name: gpt-4o-mini
+  llm_model_name: MiniCPM-V-2_6
+  llm_max_token_size: 32768
+  llm_max_async: 16
+  embedding_batch_num: 32
+  embedding_func_max_async: 16
+  cosine_threshold: 0.1
+logging:
+  rag_file: lightrag.log
+  gui_file: gui_lightrag.log
+datasets:
+  android_in_the_zoo: data/android_in_the_zoo
+workflow_defaults:
+  chunk_token_size: 2048
+  chunk_overlap_token_size: 100
+  tiktoken_model_name: gpt-4o-mini
+  llm_model_name: meta-llama/Llama-3.2-1B-Instruct
+  llm_max_token_size: 32768
+  llm_max_async: 16
+  embedding_batch_num: 32
+  embedding_func_max_async: 16
+  cosine_threshold: 0.5

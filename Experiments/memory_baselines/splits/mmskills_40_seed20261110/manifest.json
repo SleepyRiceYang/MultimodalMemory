@@ -1,0 +1,20 @@
+{
+  "seed": 20261110,
+  "sampling": "proportional_stratified_largest_remainder",
+  "pool_tasks": 360,
+  "sample_tasks": 40,
+  "counts": {
+    "chrome": 5,
+    "gimp": 3,
+    "libreoffice_calc": 5,
+    "libreoffice_impress": 5,
+    "libreoffice_writer": 3,
+    "multi_apps": 10,
+    "os": 3,
+    "thunderbird": 2,
+    "vlc": 2,
+    "vs_code": 2
+  },
+  "mapping_sha256": "ad4718ef1d73200a386d6a6f8cdc7127f1c550bc1a5f64e2a6cc193cdfbc2632",
+  "smoke_selection": "first sorted sampled ID in Calc/GIMP/VLC; subset, development use"
+}

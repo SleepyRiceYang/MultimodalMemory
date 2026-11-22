@@ -1,0 +1,42 @@
+{
+  "model": {
+    "base_url": "http://127.0.0.1:8077/v1",
+    "name": "qwen3.8-27b",
+    "api_key_env": "LOCAL_MODEL_API_KEY",
+    "temperature": 0,
+    "max_tokens": 32678,
+    "construction_max_tokens": 32678,
+    "timeout": 1800,
+    "image_max_side": 1024
+  },
+  "memory": {
+    "top_k": 3,
+    "max_images": 2,
+    "max_text_chars": 16000,
+    "online_updates": false,
+    "darwinian_risk_threshold": 0.8
+  },
+  "benchmarks": [
+    "mathvision",
+    "vision2code"
+  ],
+  "baselines": [
+    "no_memory",
+    "raw_multimodal",
+    "ksi_style",
+    "magnet_adapted",
+    "darwinian_adapted"
+  ],
+  "vision2code": {
+    "rater_max_tokens": 3072,
+    "render_timeout": 30
+  },
+  "sampling": {
+    "seed": 20261023,
+    "history_count": 100,
+    "test_count": 100
+  },
+  "fixed_split_dir": "Experiments/memory_baselines/splits/100_100_seed_20261023",
+  "data_mode": "benchmark_internal_disjoint_100_memory_100_test_fixed_manifest",
+  "prompt_version": "formal_100_100"
+}

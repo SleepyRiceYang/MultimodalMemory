@@ -1,0 +1,72 @@
+{
+  "chrome": [
+    "480bcfea-d68f-4aaa-a0a9-2589ef319381",
+    "6766f2b8-8a72-417f-a9e5-56fcaa735837",
+    "a728a36e-8bf1-4bb6-9a03-ef039a5233f0"
+  ],
+  "gimp": [
+    "554785e9-4523-4e7a-b8e1-8016f565f56a",
+    "77b8ab4d-994f-43ac-8930-8ca087d7c4b4",
+    "a746add2-cab0-4740-ac36-c3769d9bfb46"
+  ],
+  "libreoffice_calc": [
+    "0bf05a7d-b28b-44d2-955a-50b41e24012a",
+    "1273e544-688f-496b-8d89-3e0f40aa0606",
+    "21ab7b40-77c2-4ae6-8321-e00d3a086c73",
+    "26a8440e-c166-4c50-aef4-bfb77314b46b",
+    "357ef137-7eeb-4c80-a3bb-0951f26a8aff",
+    "7a4e4bc8-922c-4c84-865c-25ba34136be1",
+    "d681960f-7bc3-4286-9913-a8812ba3261a",
+    "eb03d19a-b88d-4de4-8a64-ca0ac66f426b"
+  ],
+  "libreoffice_impress": [
+    "08aced46-45a2-48d7-993b-ed3fb5b32302",
+    "0f84bef9-9790-432e-92b7-eece357603fb",
+    "5d901039-a89c-4bfb-967b-bf66f4df075e",
+    "9ec204e4-f0a3-42f8-8458-b772a6797cab",
+    "b8adbc24-cef2-4b15-99d5-ecbe7ff445eb",
+    "e4ef0baf-4b52-4590-a47e-d4d464cca2d7",
+    "ed43c15f-00cb-4054-9c95-62c880865d68",
+    "f23acfd2-c485-4b7c-a1e7-d4303ddfe864"
+  ],
+  "libreoffice_writer": [
+    "0810415c-bde4-4443-9047-d5f70165a697",
+    "6f81754e-285d-4ce0-b59e-af7edb02d108",
+    "ecc2413d-8a48-416e-a3a2-d30106ca36cb",
+    "f178a4a9-d090-4b56-bc4c-4b72a61a035d"
+  ],
+  "multi_apps": [
+    "20236825-b5df-46e7-89bf-62e1d640a897",
+    "26150609-0da3-4a7d-8868-0faf9c5f01bb",
+    "2c9fc0de-3ee7-45e1-a5df-c86206ad78b5",
+    "3680a5ee-6870-426a-a997-eba929a0d25c",
+    "48d05431-6cd5-4e76-82eb-12b60d823f7d",
+    "7e287123-70ca-47b9-8521-47db09b69b14",
+    "873cafdd-a581-47f6-8b33-b9696ddb7b05",
+    "91190194-f406-4cd6-b3f9-c43fac942b22",
+    "98e8e339-5f91-4ed2-b2b2-12647cb134f4",
+    "aceb0368-56b8-4073-b70e-3dc9aee184e0",
+    "d68204bf-11c1-4b13-b48b-d303c73d4bf6",
+    "d9b7c649-c975-4f53-88f5-940b29c47247",
+    "f918266a-b3e0-4914-865d-4faa564f1aef"
+  ],
+  "os": [
+    "5c1075ca-bb34-46a3-a7a0-029bd7463e79",
+    "5ea617a3-0e86-4ba6-aab2-dac9aa2e8d57"
+  ],
+  "thunderbird": [
+    "15c3b339-88f7-4a86-ab16-e71c58dcb01e",
+    "3f49d2cc-f400-4e7d-90cc-9b18e401cc31",
+    "a10b69e1-6034-4a2b-93e1-571d45194f75"
+  ],
+  "vlc": [
+    "215dfd39-f493-4bc3-a027-8a97d72c61bf",
+    "a5bbbcd5-b398-4c91-83d4-55e1e31bbb81",
+    "f3977615-2b45-4ac5-8bba-80c17dbe2a37"
+  ],
+  "vs_code": [
+    "0ed39f63-6049-43d4-ba4d-5fa2fe04a951",
+    "9439a27b-18ae-42d8-9778-5f68f891805e",
+    "c6bf789c-ba3a-4209-971d-b63abf0ab733"
+  ]
+}

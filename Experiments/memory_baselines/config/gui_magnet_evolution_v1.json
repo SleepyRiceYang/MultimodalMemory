@@ -1,0 +1,29 @@
+{
+  "rounds": 3,
+  "source_run": "formal_50_construction_v1",
+  "actor_max_tokens": 2048,
+  "planner_max_tokens": 1536,
+  "build_max_tokens": 3072,
+  "android_max_steps": 120,
+  "osworld_max_steps": 50,
+  "smoke_max_steps": 12,
+  "date_label": "Thursday, October 29, 2026",
+  "cluster_threshold": 0.75,
+  "cluster_batch_size": 4,
+  "recall_threshold": 0.5,
+  "top_n": 5,
+  "top_k": 3,
+  "max_images": 6,
+  "max_text_chars": 12000,
+  "vm_path": "/data/yangshengjie/workspace/VLM-Memory/Benchmark/OSWorld/docker_vm_data/Ubuntu.qcow2",
+  "smoke": {
+    "androidworld": {
+      "construction": ["RecipeDeleteSingleRecipe", "SystemWifiTurnOff"],
+      "test": ["SystemWifiTurnOn"]
+    },
+    "osworld": {
+      "construction": ["12086550-11c0-466b-b367-1d9e75b3910e", "5e2d93d8-8ad0-4435-b150-1692aacaa994"],
+      "test": ["9439a27b-18ae-42d8-9778-5f68f891805e"]
+    }
+  }
+}

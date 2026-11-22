@@ -1,0 +1,452 @@
+{
+  "ec71221e-ac43-46f9-89b8-ee7d80f7e1c5": {
+    "source": "Experiments/memory_baselines/artifacts/mmskills_osworld/formal_40_dense_20261111_v1/visual_skill_retrieval/vs_code/ec71221e-ac43-46f9-89b8-ee7d80f7e1c5/selection.json",
+    "candidates": [
+      {
+        "skill": "LIBREOFFICEIMPRESS_Adjust_Text_Bullets_Indentation_Strikethrough_and_Alignment",
+        "name": "Adjust Text Bullets, Indentation, Strikethrough, and Alignment",
+        "description": "Apply paragraph-level list, alignment, spacing, or strikeout changes to existing slide text and verify the same line on the canvas.",
+        "cosine_similarity": 0.2523195743560791
+      },
+      {
+        "skill": "VSCODE_Create_and_Use_Custom_Snippets",
+        "name": "Create and Use Custom Snippets",
+        "description": "Configure reusable snippets rather than one-off code edits. Open the right snippet file, make the requested prefix or body change, and stop only after the snippet suggestion or saved snippet definition visibly confirms the update. Verify both the saved snippet definition and the triggered prefix or autocomplete suggestion when the task asks for reusable snippet behavior.",
+        "cosine_similarity": 0.19607694447040558
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Tab_Stops_and_Mixed_Paragraph_Alignment",
+        "name": "Tab Stops and Mixed Paragraph Alignment",
+        "description": "Configure ruler units and paragraph tab stops, then verify the paragraph shows the expected tab marker layout or mixed alignment result.",
+        "cosine_similarity": 0.18972642719745636
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Format_Selected_Text_Characters",
+        "name": "Format Selected Text Characters",
+        "description": "Apply character-level changes such as font family, size, bold, italic, underline, subscript, superscript, or highlighting to the current selection.",
+        "cosine_similarity": 0.18693101406097412
+      },
+      {
+        "skill": "VSCODE_Edit_Existing_Files_in_the_Editor",
+        "name": "Edit Existing Files in the Editor",
+        "description": "Work inside an already opened file. Make a precise edit at the requested location, save when the task requires persistence or a new filename, and keep a separate branch for focused rename or refactor flows that never leave the editor context. Keep this skill for precise in-place edits, Save As, and focused refactors. Route large selection-based indent/comment transforms into the bulk-edit sibling skill.",
+        "cosine_similarity": 0.17308613657951355
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Cleanup_Highlights_Markers_and_Sentence_Spacing",
+        "name": "Cleanup Highlights, Markers, and Sentence Spacing",
+        "description": "Remove stale highlighting or inline markers and use scope-aware replace workflows to clean spacing or split sentence blocks without collapsing unrelated text.",
+        "cosine_similarity": 0.1705961376428604
+      },
+      {
+        "skill": "LIBREOFFICEIMPRESS_Format_Slide_Text_and_Paragraphs",
+        "name": "Format Slide Text and Paragraphs",
+        "description": "Reformat existing slide text at the character level and verify the change on the canvas before moving on.",
+        "cosine_similarity": 0.16551214456558228
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Format_Paragraph_Alignment_and_Spacing",
+        "name": "Format Paragraph Alignment and Spacing",
+        "description": "Open the paragraph controls, change alignment or spacing values, and verify the paragraph block visibly changes on the page.",
+        "cosine_similarity": 0.1626768708229065
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Create_and_Format_Tables",
+        "name": "Create and Format Tables",
+        "description": "Insert new tables, change row or column structure, and apply table formatting such as fills, borders, or row height adjustments.",
+        "cosine_similarity": 0.15924672782421112
+      },
+      {
+        "skill": "VSCODE_Configure_Terminal_and_Debug_Preferences",
+        "name": "Configure Terminal and Debug Preferences",
+        "description": "Handle terminal and debug preferences as a focused settings family. Search for the requested terminal or debug control, change it through the visible UI, and verify the final control values rather than stopping at an open settings panel. Keep terminal/debug settings separate from live run and inspect workflows, but explicitly cover debug session visibility settings such as lazy variables, breakpoints everywhere, and shell-integration rows.",
+        "cosine_similarity": 0.15919990837574005
+      }
+    ],
+    "policy": "task_only_minicpm_cosine_top10_llm_up_to_three_or_null_v3",
+    "embedding": {
+      "model": "openbmb/MiniCPM-Embedding",
+      "revision": "dc0f82b4466b254dddc25787bf7b1cbc28f755b0",
+      "dimension": 2304,
+      "normalized": true,
+      "max_tokens": 512,
+      "pooling": "model_scaled_hidden_states_then_masked_mean",
+      "query_prefix": "Query: "
+    }
+  },
+  "386dbd0e-0241-4a0a-b6a2-6704fba26b1c": {
+    "source": "Experiments/memory_baselines/artifacts/mmskills_osworld/formal_40_dense_20261111_v1/visual_skill_retrieval/vlc/386dbd0e-0241-4a0a-b6a2-6704fba26b1c/selection.json",
+    "candidates": [
+      {
+        "skill": "VLC_Control_Playback_Position_Looping_Speed_And_Volume",
+        "name": "Control Playback Position Looping Speed And Volume",
+        "description": "Use VLC playback menus and on-player controls to jump, loop, bookmark, or adjust active playback without drifting into unrelated preference work.",
+        "cosine_similarity": 0.43086832761764526
+      },
+      {
+        "skill": "VLC_Configure_Preferences_Hotkeys_Paths_And_Persisted_Defaults",
+        "name": "Configure Preferences Hotkeys Paths And Persisted Defaults",
+        "description": "Use VLC Preferences only for persistent paths, hotkeys, and saved defaults that must survive restart or later playback sessions. Do not load this skill for one-off open, snapshot, wallpaper, fullscreen, or convert tasks.",
+        "cosine_similarity": 0.3713637888431549
+      },
+      {
+        "skill": "VLC_Open_Local_Media_And_Verify_Playback_Surface",
+        "name": "Open Local Media And Verify Playback Surface",
+        "description": "Use VLC's shortest local-open path to bring a Desktop or filesystem file onto the VLC playback surface, then verify by visible title, frame, or timeline instead of drifting into preferences or unrelated dialogs.",
+        "cosine_similarity": 0.3541485071182251
+      },
+      {
+        "skill": "LIBREOFFICEIMPRESS_Edit_Speaker_Notes_and_Notes_Views",
+        "name": "Edit Speaker Notes and Notes Views",
+        "description": "Enter Notes or Master Notes view, place focus in the notes region instead of the slide canvas, and verify the result inside the notes surface.",
+        "cosine_similarity": 0.341302752494812
+      },
+      {
+        "skill": "VLC_Customize_Toolbars_Status_Bar_Advanced_Controls_And_Fullscreen_Controller",
+        "name": "Customize Toolbars Status Bar Advanced Controls And Fullscreen Controller",
+        "description": "Use the View menu and Toolbars Editor for persistent layout work such as status bar, advanced controls, big buttons, and fullscreen-controller visibility. Do not use this skill for the ordinary act of making the current video fullscreen.",
+        "cosine_similarity": 0.3354719877243042
+      },
+      {
+        "skill": "MULTIAPP_Insert_VLC_Captured_Media_Into_An_Impress_Slide",
+        "name": "Insert VLC-Captured Media Into An Impress Slide",
+        "description": "Capture the requested VLC audio or frame and place it onto the target Impress slide.",
+        "cosine_similarity": 0.3349626362323761
+      },
+      {
+        "skill": "VLC_Capture_Snapshots_Recordings_And_Verify_Saved_Artifacts",
+        "name": "Capture Snapshots Recordings And Verify Saved Artifacts",
+        "description": "Use VLC's shortest snapshot, recording, or wallpaper path from the current frame, and finish on a visible output or desktop wallpaper result. Open Preferences only when a persistent destination or format change is explicitly needed.",
+        "cosine_similarity": 0.330564022064209
+      },
+      {
+        "skill": "VLC_Inspect_Codec_Information_Shortcuts_Support_And_Plugins",
+        "name": "Inspect Codec Information Shortcuts Support And Plugins",
+        "description": "Use VLC information panels, shortcut views, plugin windows, and support pages when the task is about inspection rather than editing settings or playback.",
+        "cosine_similarity": 0.32077556848526
+      },
+      {
+        "skill": "VLC_Configure_Startup_Interface_Modules_Appearance_And_Instance_Behavior",
+        "name": "Configure Startup Interface Modules Appearance And Instance Behavior",
+        "description": "Use VLC Interface preferences only for persistent startup, appearance, or instance-behavior changes that must survive restart. Do not load this skill for short playback tasks like open, play, fullscreen, snapshot, or network streaming.",
+        "cosine_similarity": 0.316841721534729
+      },
+      {
+        "skill": "VLC_Manage_Playlists_And_Media_Library",
+        "name": "Manage Playlists And Media Library",
+        "description": "Use VLC's playlist and media-library surfaces for list organization, directory creation, sorting, and saved playlist artifacts.",
+        "cosine_similarity": 0.3127967119216919
+      }
+    ],
+    "policy": "task_only_minicpm_cosine_top10_llm_up_to_three_or_null_v3",
+    "embedding": {
+      "model": "openbmb/MiniCPM-Embedding",
+      "revision": "dc0f82b4466b254dddc25787bf7b1cbc28f755b0",
+      "dimension": 2304,
+      "normalized": true,
+      "max_tokens": 512,
+      "pooling": "model_scaled_hidden_states_then_masked_mean",
+      "query_prefix": "Query: "
+    }
+  },
+  "1d17d234-e39d-4ed7-b46f-4417922a4e7c": {
+    "source": "Experiments/memory_baselines/artifacts/mmskills_osworld/formal_40_dense_20261111_v1/visual_skill_retrieval/libreoffice_calc/1d17d234-e39d-4ed7-b46f-4417922a4e7c/selection.json",
+    "candidates": [
+      {
+        "skill": "LIBREOFFICECALC_Build_Merged_Report_Headers_and_Multi_Row_Layouts",
+        "name": "Build Merged Report Headers and Multi Row Layouts",
+        "description": "Merge header ranges, handle hidden-cell warnings deliberately, and verify that multi-row report headers still span the intended block after the merge.",
+        "cosine_similarity": 0.3308687210083008
+      },
+      {
+        "skill": "LIBREOFFICECALC_Create_Chart_on_Target_Sheet_with_Exact_Title_and_Type",
+        "name": "Create Chart on Target Sheet with Exact Title and Type",
+        "description": "Create a chart on the requested destination sheet while honoring an exact chart title and chart family.",
+        "cosine_similarity": 0.25221407413482666
+      },
+      {
+        "skill": "LIBREOFFICECALC_Create_Calc_Pivot_Tables_with_Aggregations_and_Filters",
+        "name": "Create Calc Pivot Tables with Aggregations and Filters",
+        "description": "Create Calc pivot tables from the intended source range, place fields into the correct layout buckets, choose non-default aggregations, and verify renamed or filtered pivot output on the result sheet.",
+        "cosine_similarity": 0.24762457609176636
+      },
+      {
+        "skill": "LIBREOFFICECALC_Manage_Calc_Worksheets_and_Cross_Sheet_Data",
+        "name": "Manage Calc Worksheets and Cross Sheet Data",
+        "description": "Create, rename, switch, and organize worksheet tabs while moving data between sheets in a controlled way.",
+        "cosine_similarity": 0.24392664432525635
+      },
+      {
+        "skill": "LIBREOFFICECALC_Lookup_Reference_and_Keyed_Fill_Formulas",
+        "name": "Lookup Reference and Keyed Fill Formulas",
+        "description": "Enter cross-sheet or keyed-reference formulas in the correct destination column, verify the sheet-qualified references, and confirm the visible filled results.",
+        "cosine_similarity": 0.24265246093273163
+      },
+      {
+        "skill": "LIBREOFFICECALC_Run_Calc_Statistical_Tests_and_Summaries",
+        "name": "Run Calc Statistical Tests and Summaries",
+        "description": "Run statistical tools or summary functions that are more specialized than ordinary worksheet formulas.",
+        "cosine_similarity": 0.24152439832687378
+      },
+      {
+        "skill": "LIBREOFFICECALC_Apply_Revenue_Cost_Discount_Profit_Formulas",
+        "name": "Apply Revenue Cost Discount Profit Formulas",
+        "description": "Build business-metric columns such as revenue, cost, discount, or profit from visible Calc source columns, then verify the target output column before moving on.",
+        "cosine_similarity": 0.23530322313308716
+      },
+      {
+        "skill": "MULTIAPP_Transfer_Calc_Results_Into_A_Writer_Report",
+        "name": "Transfer Calc Results Into A Writer Report",
+        "description": "Copy a prepared Calc chart, table, range, or named result block into the required Writer report location and verify the inserted report-side result.",
+        "cosine_similarity": 0.23455162346363068
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Create_and_Format_Tables",
+        "name": "Create and Format Tables",
+        "description": "Insert new tables, change row or column structure, and apply table formatting such as fills, borders, or row height adjustments.",
+        "cosine_similarity": 0.2236972600221634
+      },
+      {
+        "skill": "LIBREOFFICECALC_Use_Formulas_and_Functions_in_Calc_Cells",
+        "name": "Use Formulas and Functions in Calc Cells",
+        "description": "Enter direct Calc formulas or wizard-selected functions in the correct target cell, verify the first result, and only then fill the intended range.",
+        "cosine_similarity": 0.22281011939048767
+      }
+    ],
+    "policy": "task_only_minicpm_cosine_top10_llm_up_to_three_or_null_v3",
+    "embedding": {
+      "model": "openbmb/MiniCPM-Embedding",
+      "revision": "dc0f82b4466b254dddc25787bf7b1cbc28f755b0",
+      "dimension": 2304,
+      "normalized": true,
+      "max_tokens": 512,
+      "pooling": "model_scaled_hidden_states_then_masked_mean",
+      "query_prefix": "Query: "
+    }
+  },
+  "357ef137-7eeb-4c80-a3bb-0951f26a8aff": {
+    "source": "Experiments/memory_baselines/artifacts/mmskills_osworld/formal_40_dense_20261111_v1/visual_skill_retrieval/libreoffice_calc/357ef137-7eeb-4c80-a3bb-0951f26a8aff/selection.json",
+    "candidates": [
+      {
+        "skill": "LIBREOFFICECALC_Use_Formulas_and_Functions_in_Calc_Cells",
+        "name": "Use Formulas and Functions in Calc Cells",
+        "description": "Enter direct Calc formulas or wizard-selected functions in the correct target cell, verify the first result, and only then fill the intended range.",
+        "cosine_similarity": 0.29637306928634644
+      },
+      {
+        "skill": "LIBREOFFICECALC_Format_Calc_Numbers_Dates_and_Percentages",
+        "name": "Format Calc Numbers Dates and Percentages",
+        "description": "Apply numeric, date, time, percentage, fraction, or separator formatting to visible Calc cells and verify the displayed representation.",
+        "cosine_similarity": 0.24092313647270203
+      },
+      {
+        "skill": "LIBREOFFICECALC_Apply_Revenue_Cost_Discount_Profit_Formulas",
+        "name": "Apply Revenue Cost Discount Profit Formulas",
+        "description": "Build business-metric columns such as revenue, cost, discount, or profit from visible Calc source columns, then verify the target output column before moving on.",
+        "cosine_similarity": 0.2374337613582611
+      },
+      {
+        "skill": "MULTIAPP_Add_Or_Adjust_Recurring_Timetable_Slots_In_Calc",
+        "name": "Add Or Adjust Recurring Timetable Slots In Calc",
+        "description": "Place a recurring lecture or class block into the correct timetable slot in Calc and verify the finished block inside the schedule grid.",
+        "cosine_similarity": 0.22450119256973267
+      },
+      {
+        "skill": "LIBREOFFICECALC_Lookup_Reference_and_Keyed_Fill_Formulas",
+        "name": "Lookup Reference and Keyed Fill Formulas",
+        "description": "Enter cross-sheet or keyed-reference formulas in the correct destination column, verify the sheet-qualified references, and confirm the visible filled results.",
+        "cosine_similarity": 0.22449009120464325
+      },
+      {
+        "skill": "LIBREOFFICECALC_Format_Calc_Cell_Text_Alignment_and_Borders",
+        "name": "Format Calc Cell Text Alignment and Borders",
+        "description": "Apply direct cell formatting such as font weight, font size, alignment, fill, and borders, then verify that the requested style landed only on the intended range.",
+        "cosine_similarity": 0.22217068076133728
+      },
+      {
+        "skill": "LIBREOFFICECALC_Enable_Data_Validation_Dropdowns_and_Allowed_Values",
+        "name": "Enable Data Validation Dropdowns and Allowed Values",
+        "description": "Turn Calc cells into validated dropdowns, set the allowed list or criteria correctly, and verify the post-dialog dropdown behavior on the sheet.",
+        "cosine_similarity": 0.2107345163822174
+      },
+      {
+        "skill": "LIBREOFFICECALC_Build_Merged_Report_Headers_and_Multi_Row_Layouts",
+        "name": "Build Merged Report Headers and Multi Row Layouts",
+        "description": "Merge header ranges, handle hidden-cell warnings deliberately, and verify that multi-row report headers still span the intended block after the merge.",
+        "cosine_similarity": 0.19300678372383118
+      },
+      {
+        "skill": "LIBREOFFICECALC_Highlight_Weekend_or_Rule_Matched_Cells",
+        "name": "Highlight Weekend or Rule Matched Cells",
+        "description": "Highlight cells or rows that match visible weekend or value rules when the end state is a directly visible on-sheet match result rather than a dialog-centric conditional-format authoring flow.",
+        "cosine_similarity": 0.19085654616355896
+      },
+      {
+        "skill": "MULTIAPP_Transfer_Calc_Results_Into_A_Writer_Report",
+        "name": "Transfer Calc Results Into A Writer Report",
+        "description": "Copy a prepared Calc chart, table, range, or named result block into the required Writer report location and verify the inserted report-side result.",
+        "cosine_similarity": 0.1859084665775299
+      }
+    ],
+    "policy": "task_only_minicpm_cosine_top10_llm_up_to_three_or_null_v3",
+    "embedding": {
+      "model": "openbmb/MiniCPM-Embedding",
+      "revision": "dc0f82b4466b254dddc25787bf7b1cbc28f755b0",
+      "dimension": 2304,
+      "normalized": true,
+      "max_tokens": 512,
+      "pooling": "model_scaled_hidden_states_then_masked_mean",
+      "query_prefix": "Query: "
+    }
+  },
+  "21ab7b40-77c2-4ae6-8321-e00d3a086c73": {
+    "source": "Experiments/memory_baselines/artifacts/mmskills_osworld/formal_40_dense_20261111_v1/visual_skill_retrieval/libreoffice_calc/21ab7b40-77c2-4ae6-8321-e00d3a086c73/selection.json",
+    "candidates": [
+      {
+        "skill": "LIBREOFFICECALC_Format_Calc_Numbers_Dates_and_Percentages",
+        "name": "Format Calc Numbers Dates and Percentages",
+        "description": "Apply numeric, date, time, percentage, fraction, or separator formatting to visible Calc cells and verify the displayed representation.",
+        "cosine_similarity": 0.3107929229736328
+      },
+      {
+        "skill": "LIBREOFFICECALC_Apply_Revenue_Cost_Discount_Profit_Formulas",
+        "name": "Apply Revenue Cost Discount Profit Formulas",
+        "description": "Build business-metric columns such as revenue, cost, discount, or profit from visible Calc source columns, then verify the target output column before moving on.",
+        "cosine_similarity": 0.2541704475879669
+      },
+      {
+        "skill": "LIBREOFFICECALC_Highlight_Weekend_or_Rule_Matched_Cells",
+        "name": "Highlight Weekend or Rule Matched Cells",
+        "description": "Highlight cells or rows that match visible weekend or value rules when the end state is a directly visible on-sheet match result rather than a dialog-centric conditional-format authoring flow.",
+        "cosine_similarity": 0.23813693225383759
+      },
+      {
+        "skill": "LIBREOFFICECALC_Format_Calc_Cell_Text_Alignment_and_Borders",
+        "name": "Format Calc Cell Text Alignment and Borders",
+        "description": "Apply direct cell formatting such as font weight, font size, alignment, fill, and borders, then verify that the requested style landed only on the intended range.",
+        "cosine_similarity": 0.2303752899169922
+      },
+      {
+        "skill": "LIBREOFFICECALC_Conditional_Formatting_and_Placeholder_Handling",
+        "name": "Conditional Formatting and Placeholder Handling",
+        "description": "Author conditional-format rules, handle placeholder values such as #N/A, and verify both the dialog logic and the visible styled result when Calc tasks depend on rule-driven formatting.",
+        "cosine_similarity": 0.22917619347572327
+      },
+      {
+        "skill": "LIBREOFFICECALC_Fill_Copy_Paste_and_Split_Calc_Data",
+        "name": "Fill Copy Paste and Split Calc Data",
+        "description": "Copy, paste, fill down, duplicate rows, or split text into columns while protecting existing values and keeping the destination range aligned with the task.",
+        "cosine_similarity": 0.2230965793132782
+      },
+      {
+        "skill": "LIBREOFFICECALC_Sort_and_Filter_Calc_Tables",
+        "name": "Sort and Filter Calc Tables",
+        "description": "Apply sorts, auto-filters, and range filters to Calc tables and verify the visible filtered rows or ordering on the sheet.",
+        "cosine_similarity": 0.20020052790641785
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Apply_Case_Transforms_and_Rule_Based_Text_Formatting",
+        "name": "Apply Case Transforms and Rule-Based Text Formatting",
+        "description": "Convert selected text between uppercase, lowercase, sentence case, or capitalize-each-word variants and verify the requested text form is visible on the page.",
+        "cosine_similarity": 0.1902197301387787
+      },
+      {
+        "skill": "LIBREOFFICECALC_Create_Sparklines_or_Cell_Embedded_Trend_Visuals",
+        "name": "Create Sparklines or Cell Embedded Trend Visuals",
+        "description": "Create compact cell-embedded trend or intensity visuals such as sparklines, data bars, or color scales when the task wants an in-cell visual result instead of a full chart canvas.",
+        "cosine_similarity": 0.18911105394363403
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Create_and_Format_Tables",
+        "name": "Create and Format Tables",
+        "description": "Insert new tables, change row or column structure, and apply table formatting such as fills, borders, or row height adjustments.",
+        "cosine_similarity": 0.1863735467195511
+      }
+    ],
+    "policy": "task_only_minicpm_cosine_top10_llm_up_to_three_or_null_v3",
+    "embedding": {
+      "model": "openbmb/MiniCPM-Embedding",
+      "revision": "dc0f82b4466b254dddc25787bf7b1cbc28f755b0",
+      "dimension": 2304,
+      "normalized": true,
+      "max_tokens": 512,
+      "pooling": "model_scaled_hidden_states_then_masked_mean",
+      "query_prefix": "Query: "
+    }
+  },
+  "2cd43775-7085-45d8-89fa-9e35c0a915cf": {
+    "source": "Experiments/memory_baselines/artifacts/mmskills_osworld/formal_40_dense_20261111_v1/visual_skill_retrieval/libreoffice_impress/2cd43775-7085-45d8-89fa-9e35c0a915cf/selection.json",
+    "candidates": [
+      {
+        "skill": "VSCODE_Create_and_Use_Custom_Snippets",
+        "name": "Create and Use Custom Snippets",
+        "description": "Configure reusable snippets rather than one-off code edits. Open the right snippet file, make the requested prefix or body change, and stop only after the snippet suggestion or saved snippet definition visibly confirms the update. Verify both the saved snippet definition and the triggered prefix or autocomplete suggestion when the task asks for reusable snippet behavior.",
+        "cosine_similarity": 0.28526440262794495
+      },
+      {
+        "skill": "VLC_Capture_Snapshots_Recordings_And_Verify_Saved_Artifacts",
+        "name": "Capture Snapshots Recordings And Verify Saved Artifacts",
+        "description": "Use VLC's shortest snapshot, recording, or wallpaper path from the current frame, and finish on a visible output or desktop wallpaper result. Open Preferences only when a persistent destination or format change is explicitly needed.",
+        "cosine_similarity": 0.2541080117225647
+      },
+      {
+        "skill": "THUNDERBIRD_Apply_Automatic_Filters_To_Subfolders",
+        "name": "Apply Automatic Filters To Subfolders",
+        "description": "Create or edit concrete Thunderbird rules that target visible subfolders and stay enabled for automatic runs; do not use this skill for prefs-only subfolder auto-apply tasks.",
+        "cosine_similarity": 0.238253653049469
+      },
+      {
+        "skill": "VLC_Configure_Preferences_Hotkeys_Paths_And_Persisted_Defaults",
+        "name": "Configure Preferences Hotkeys Paths And Persisted Defaults",
+        "description": "Use VLC Preferences only for persistent paths, hotkeys, and saved defaults that must survive restart or later playback sessions. Do not load this skill for one-off open, snapshot, wallpaper, fullscreen, or convert tasks.",
+        "cosine_similarity": 0.23687824606895447
+      },
+      {
+        "skill": "THUNDERBIRD_Configure_Server_Retrieval_Retention_and_Cache_Settings",
+        "name": "Configure Server Retrieval Retention and Cache Settings",
+        "description": "Change Thunderbird server retrieval or closely related persisted account prefs, including incoming-filter auto-apply behavior, and verify the saved values.",
+        "cosine_similarity": 0.2335568070411682
+      },
+      {
+        "skill": "THUNDERBIRD_Configure_Thunderbird_Mail_Composition_Preferences",
+        "name": "Configure Thunderbird Mail Composition Preferences",
+        "description": "Configure Thunderbird global composition defaults such as autosave, spellcheck, link previews, sending format, and address-handling behavior.",
+        "cosine_similarity": 0.22610563039779663
+      },
+      {
+        "skill": "VSCODE_Add_Remove_and_Save_Multi_Root_Workspaces",
+        "name": "Add Remove and Save Multi Root Workspaces",
+        "description": "Modify or persist the workspace root set itself. Save the current shell when needed, add or remove roots inside the same window, and stop only after Explorer or the saved workspace shell confirms the intended result. Treat workspace-root editing as a different workflow from opening a plain folder or loading one saved `.code-workspace` shell, and treat multiple saved workspaces in one window as a boundary case rather than ordinary multi-root editing.",
+        "cosine_similarity": 0.22293120622634888
+      },
+      {
+        "skill": "CHROME_Manage_Bookmarks_Reading_List_And_Shortcuts",
+        "name": "Manage Bookmarks Reading List And Shortcuts",
+        "description": "Save the current Chrome page, choose or create a destination, and verify the saved result. Use the image cards only when the current UI genuinely matches the bookmark states they show.",
+        "cosine_similarity": 0.2208355814218521
+      },
+      {
+        "skill": "VLC_Convert_Or_Extract_Audio_To_MP3",
+        "name": "Convert Or Extract Audio To MP3",
+        "description": "Use VLC's Convert/Save flow to extract MP3 with the exact requested destination path and filename. Avoid drifting into Preferences unless a persistent saved default is explicitly required.",
+        "cosine_similarity": 0.21775592863559723
+      },
+      {
+        "skill": "LIBREOFFICEWRITER_Open_Document_Sharing_and_Remote_Save_Surfaces",
+        "name": "Open Document Sharing and Remote Save Surfaces",
+        "description": "Reach Writer's remote save and file services surfaces that precede collaboration so the agent can stop guessing across File, Tools, and service-management branches.",
+        "cosine_similarity": 0.20714527368545532
+      }
+    ],
+    "policy": "task_only_minicpm_cosine_top10_llm_up_to_three_or_null_v3",
+    "embedding": {
+      "model": "openbmb/MiniCPM-Embedding",
+      "revision": "dc0f82b4466b254dddc25787bf7b1cbc28f755b0",
+      "dimension": 2304,
+      "normalized": true,
+      "max_tokens": 512,
+      "pooling": "model_scaled_hidden_states_then_masked_mean",
+      "query_prefix": "Query: "
+    }
+  }
+}

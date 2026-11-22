@@ -1,0 +1,4035 @@
+{
+  "benchmark": "vision2code",
+  "seed": 20261023,
+  "memory": [
+    {
+      "id": "ChartQA_test_002183_b6e7675ec75e",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_002183_b6e7675ec75e.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:2182",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "f7a9b537e11c305d44648d50b8e0687dc7fcca477d57dfd5f35161d801e57f69"
+      ]
+    },
+    {
+      "id": "ChartQA_test_001018_99d9c456abfe",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_001018_99d9c456abfe.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:1017",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "4a4e8dffc8d418cc919a35513446b9828d533aa6b09d4c6f0d893179a43f55fe"
+      ]
+    },
+    {
+      "id": "ChartQA_test_000452_509b017d333b",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_000452_509b017d333b.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:451",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "93c6432c40860ba95506493e12548459dd00a0e08e9ff52274f32eab593f6226"
+      ]
+    },
+    {
+      "id": "ChartQA_test_001926_01e25648d020",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_001926_01e25648d020.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:1925",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "3f310d95c4a9c90ef62e41f5bc883ab4cf24c0ce1e995a15fa491accbc210f24"
+      ]
+    },
+    {
+      "id": "ChartQA_test_002405_d8064976ace0",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_002405_d8064976ace0.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:2404",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "5df896106ef14d8b43abec7b3c352724b1db97663e990b767b8ac3eef2ca9c5f"
+      ]
+    },
+    {
+      "id": "ChartQA_test_001995_b7d85746283b",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_001995_b7d85746283b.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:1994",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "7dd53df8ce2c851395df7da7feae76c1587b22ff019e030f5320eb93431209dc"
+      ]
+    },
+    {
+      "id": "ChartQA_test_000949_d78b49136054",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_000949_d78b49136054.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:948",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "1dda77de5e358033703f52006bb9eb7f34efe5cf7a751c97ff37dc87d7c28bde"
+      ]
+    },
+    {
+      "id": "ChartQA_test_002169_8d544876cccd",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_002169_8d544876cccd.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:2168",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "f1b478367f33811ae82d7c90c7596d759e769946f68ad300f9888f0a59941647"
+      ]
+    },
+    {
+      "id": "ChartQA_test_002420_802fe561952e",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_002420_802fe561952e.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:2419",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "f576281daa3e3d912e696d36b0d4984e1d06f044a365c40e0782f7d89065ab54"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_000632_1ff3d80e75bd",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_000632_1ff3d80e75bd.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:631",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "226af429be5a313c3b3105289b09658cbe317e76258198e5e5567fa162208f94"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_003435_1ec0f7789615",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_003435_1ec0f7789615.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:3434",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "51098902d6ff3c9f80b37ebe5043bf955b62d270d7cf240b1db1c1780726a091"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_000461_5aaa3f2d6751",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_000461_5aaa3f2d6751.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:460",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "d6a3e2716e2a9ddfbc33a00a86177a39d63f167c0a34f4527e2bd521dc5187fc"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_002517_7ca35b151196",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_002517_7ca35b151196.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:2516",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "ba70bf7a9390ac3f91684c5303b4e9e2bbd6a51575938a630d5c7ec74ddd74ad"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_001176_caea33f859a2",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_001176_caea33f859a2.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:1175",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "a547ceb4b230932278047396d97bf5b7abf49a95b2082ddc5fe2d74256747aeb"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_001564_6374a8bc2382",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_001564_6374a8bc2382.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:1563",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "36f1bc5c69681fb52d9945b1cbf6f4b756bb3e113672f376166e3eb20f241734"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_001522_9ea1f65841ab",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_001522_9ea1f65841ab.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:1521",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "f225547ba2e0e514980ff30c11b4d4f7d8c1133818fd602c2a31303f6e774866"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_003476_5da98c40da8d",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_003476_5da98c40da8d.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:3475",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "2d53ee9829e189401539cb811543db0464fe7fa705136364723d262dff855492"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_000618_74ddb6997959",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_000618_74ddb6997959.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:617",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "0a4dbb2bf7384d86d1ec66fdaaf9f5854055c1917d298ed3d81efffbe5b5e942"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_001173_6770a61a680b",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_001173_6770a61a680b.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:1172",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "d3612d78f734c75297d846bf6c64b441e5011e72e0b731a0f924526bd02cacaf"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_002833_8cce8ce1f0ef",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_002833_8cce8ce1f0ef.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:2832",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "71d70563ae14771e48791cefb4738bed24b4fefd60337f3bd23df1ee2af2af0d"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_002871_2d33f2237f31",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_002871_2d33f2237f31.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:2870",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "3784547bb26fd76deb8534e8d2b77bdc6ce023095d4f664c0cade4c7b7a17eeb"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_000301_3e790a0c6f7d",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_000301_3e790a0c6f7d.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:300",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "6c24ac3d9418d20601df1ada56d37a28d0463f8280ff709b455c556622a24b7c"
+      ]
+    },
+    {
+      "id": "DocVQA_test_003056_d8a3225fb09d",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_003056_d8a3225fb09d.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00003-of-00006:460",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "2f3fee571221777653beeea62ccb621c32fa327236f7efc016282762863ec065"
+      ]
+    },
+    {
+      "id": "DocVQA_test_004043_2ed13fe35772",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_004043_2ed13fe35772.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00004-of-00006:582",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "e511918d8873e5c52bdd5234ed5f43ee64ad7f58c1e58ea693b90e327d29c314"
+      ]
+    },
+    {
+      "id": "DocVQA_test_002363_8220faa86507",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_002363_8220faa86507.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00002-of-00006:632",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "9452d3dca6f3d031cd1f0065b7db4397ce51fed763083a44e88cefd68b0c71f1"
+      ]
+    },
+    {
+      "id": "DocVQA_test_004696_577af29e9baa",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_004696_577af29e9baa.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00005-of-00006:371",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "56bbab8848de203d56de5c3a710e86b063a8f9aaf5352c66a9f49399b732fbf5"
+      ]
+    },
+    {
+      "id": "DocVQA_test_001315_88ed46b7f791",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_001315_88ed46b7f791.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00001-of-00006:449",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "bfb10aa4de4c687d5c25d10b78710e30c1910e356b32ac47500442d400164f3c"
+      ]
+    },
+    {
+      "id": "DocVQA_test_000275_e0e8ecf4297d",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_000275_e0e8ecf4297d.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00000-of-00006:274",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "f34ce5d51699e4706bb37a4c0fa53d3e7696fa524d7338af156c890445fd467b"
+      ]
+    },
+    {
+      "id": "DocVQA_test_004143_1ca52a3f8b97",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_004143_1ca52a3f8b97.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00004-of-00006:682",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "efdc21e7ac26e9148b5f87b5218f75a7e1af352e0de46f615737f6598671835f"
+      ]
+    },
+    {
+      "id": "DocVQA_test_002859_8e7c01b71d94",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_002859_8e7c01b71d94.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00003-of-00006:263",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "a3d6571f9e58b6aeb1a855872752243b13ba8cc0ae17f8f30b064424b6ad34b7"
+      ]
+    },
+    {
+      "id": "DocVQA_test_003387_b6427254480b",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_003387_b6427254480b.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00003-of-00006:791",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "726f65340be3c1ef6a0854caa916d64830e447d59f980400c4b4373e7a6ca04b"
+      ]
+    },
+    {
+      "id": "DocVQA_test_001813_6c590529019a",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_001813_6c590529019a.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00002-of-00006:82",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "bf41128cd14e0f800f141187886c5bdf7f66205e424dc1f2ec4ced8adada3f9f"
+      ]
+    },
+    {
+      "id": "DocVQA_test_001529_3823ed389053",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_001529_3823ed389053.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00001-of-00006:663",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "4c0e04157fd9f83675a97045044407a4de8a672732045d52d3265a2ca98ae1fb"
+      ]
+    },
+    {
+      "id": "DocVQA_test_001880_e2272da7c73a",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_001880_e2272da7c73a.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00002-of-00006:149",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "7e261cd9356c1a2d9249d52df56b4bdf8dd212e04d7d2013b652306caf2da460"
+      ]
+    },
+    {
+      "id": "DocVQA_test_000092_e5296d0cb4c8",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_000092_e5296d0cb4c8.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00000-of-00006:91",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "3cc145904cf75ee088441a18d49ff7a7a4d08d74e19227150f78b177fb5b3ca6"
+      ]
+    },
+    {
+      "id": "DocVQA_test_004129_a387b0f14f6a",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_004129_a387b0f14f6a.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00004-of-00006:668",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "40adb4338a4b296086187cc74f838828e2c27354eb6a801d7576191418b1fe48"
+      ]
+    },
+    {
+      "id": "EEE-Bench_test_000481_619e3756038b",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/EEE-Bench_test_000481_619e3756038b.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "EEE-Bench",
+        "source_subset": "default",
+        "source_id": "EEE-Bench:default:test:test:2439",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "8a35f99103df539ee19e204d002d899ccadbba91d72446f88f6c91edb97a6f57"
+      ]
+    },
+    {
+      "id": "EEE-Bench_test_000163_ff93335d49b8",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/EEE-Bench_test_000163_ff93335d49b8.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "EEE-Bench",
+        "source_subset": "default",
+        "source_id": "EEE-Bench:default:test:test:770",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "446b417a960268fa47d1c447ad6e929f2cead7fcb7d806ad44f21f9589e1b411"
+      ]
+    },
+    {
+      "id": "EEE-Bench_test_000240_73a13a1b81b9",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/EEE-Bench_test_000240_73a13a1b81b9.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "EEE-Bench",
+        "source_subset": "default",
+        "source_id": "EEE-Bench:default:test:test:1186",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "73ce48157f064a38ca31ac5533b9ddc63e67e4854562ba45d3402dc95f976e22"
+      ]
+    },
+    {
+      "id": "EEE-Bench_test_000293_41414ee057e2",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/EEE-Bench_test_000293_41414ee057e2.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "EEE-Bench",
+        "source_subset": "default",
+        "source_id": "EEE-Bench:default:test:test:1463",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "8d8edefcc6358336a6ee731d6f9e0bf8cb27923992e70e89e8eb3e16f45e9936"
+      ]
+    },
+    {
+      "id": "GEOQA_8K_R1V_test_000024_8e8fdd69a096",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/GEOQA_8K_R1V_test_000024_8e8fdd69a096.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "GEOQA_8K_R1V",
+        "source_subset": "default",
+        "source_id": "GEOQA_8K_R1V:default:test:test-00000-of-00001:23",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "105bb2d4b238b9c72a95aa1367bc17f8b5401362d7d5de749d45a476c8e50230"
+      ]
+    },
+    {
+      "id": "GEOQA_8K_R1V_test_000299_89d7e39864ab",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/GEOQA_8K_R1V_test_000299_89d7e39864ab.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "GEOQA_8K_R1V",
+        "source_subset": "default",
+        "source_id": "GEOQA_8K_R1V:default:test:test-00000-of-00001:298",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "2ebaf5d09e8af401edeeda87e620641c97283a9eab94e88157ecd178e5bccb37"
+      ]
+    },
+    {
+      "id": "GEOQA_8K_R1V_test_000718_377276ceff6a",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/GEOQA_8K_R1V_test_000718_377276ceff6a.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "GEOQA_8K_R1V",
+        "source_subset": "default",
+        "source_id": "GEOQA_8K_R1V:default:test:test-00000-of-00001:717",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "2adf311e191dbfeb9211c61edc29561529582e41265c225151a7c95ec9ca9ec2"
+      ]
+    },
+    {
+      "id": "GEOQA_8K_R1V_test_000220_4ba041bf03a8",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/GEOQA_8K_R1V_test_000220_4ba041bf03a8.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "GEOQA_8K_R1V",
+        "source_subset": "default",
+        "source_id": "GEOQA_8K_R1V:default:test:test-00000-of-00001:219",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "9a13fa7ad8357ab5adfbbb98dfca92738864dbfeac8c7dd925af99659422be24"
+      ]
+    },
+    {
+      "id": "Geoperception_test_001085_c5daddf4337e",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_001085_c5daddf4337e.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:7701",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "4b28b65bd030d53ff11ed0a9832eff497c0b52bf674680e4e369e77c44ee4c0f"
+      ]
+    },
+    {
+      "id": "Geoperception_test_001629_849858052f5e",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_001629_849858052f5e.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:11440",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "e14a8533a2e82f071f5d9419189f8282024182dd232dc5a9eec8a66d7f526524"
+      ]
+    },
+    {
+      "id": "Geoperception_test_001262_152d137f7bdb",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_001262_152d137f7bdb.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:9045",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "326b9611bd9bd364ff5129ef62766b2c46342a6d0e2c5016a4cbcfb5f23a9e75"
+      ]
+    },
+    {
+      "id": "Geoperception_test_000510_724a3dbc3487",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_000510_724a3dbc3487.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:3472",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "098e5c762a8302203d0b732b695fb310a3b4f71846d1c3a1d49a4bb5a1f51d10"
+      ]
+    },
+    {
+      "id": "Geoperception_test_001075_793d90a5250a",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_001075_793d90a5250a.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:7632",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "6a9a5f9181e3191701b0ef52c6f5d69d9ec3c78846ac3adc0386e921b6e7e07d"
+      ]
+    },
+    {
+      "id": "Geoperception_test_001192_fcad34d8fd97",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_001192_fcad34d8fd97.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:8538",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "14c03b40f79e182c114c816816902a43940ad3e905f55acb030fcd44635517a6"
+      ]
+    },
+    {
+      "id": "Geoperception_test_000435_77f8e0dcbdbe",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_000435_77f8e0dcbdbe.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:3002",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "ea97911dfdff987d43b89bb7c7d2865786cab8398c380f426ad13c8e8e508428"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_000756_9d72e9716ff0",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_000756_9d72e9716ff0.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00002-of-00007:855",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "b6d00d7674d6b81c5ebe2e625fc7b41f5887bdd99d8d9d450358a2714cbfece3"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_001621_ab9cd51f1353",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_001621_ab9cd51f1353.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00005-of-00007:1016",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "106eac77cd8b4cb926d91ea7b538b8b05f30bc5cfc2cf3987535b09765deeb1a"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_001134_e192042caeb4",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_001134_e192042caeb4.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00003-of-00007:1357",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "6e1313bab2e3a46aa6e27ad34a0e6ddb4a426fa44e0af03aafcfd915aca8088b"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_000336_d5819fb86ecb",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_000336_d5819fb86ecb.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00001-of-00007:140",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "b2e96711f1c654e5a8a906fe2ab2ef9acf3f1c0fe194f9fd1bd81cdac86ab277"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_000826_b5ab5769b525",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_000826_b5ab5769b525.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00002-of-00007:1226",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "ed415218980d92943bdeef4b61575dfd31d3f614134a6b4f519779950a722c9a"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_001962_9c3c098c4221",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_001962_9c3c098c4221.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00006-of-00007:1227",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "e415ab547990493387b817a956eb852725136586618559fcae85a65706beb592"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_000689_46b63df73707",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_000689_46b63df73707.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00002-of-00007:572",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "a26f286e100b9e052f1732ea0067b1d562bdf77617d53e28687e62fd612b597c"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_001597_62764a690654",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_001597_62764a690654.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00005-of-00007:854",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "1cc927c00d61c68bb5ce3066a8e7c7bdf754235a0d79aa64ede182e32f73f81c"
+      ]
+    },
+    {
+      "id": "OlympiadBench_test_000632_5ff94fd0b4b2",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/OlympiadBench_test_000632_5ff94fd0b4b2.jpg"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "OlympiadBench",
+        "source_subset": "OlympiadBench",
+        "source_id": "OlympiadBench:OlympiadBench:unknown:OE_MM_physics_zh_CEE:655",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "86b08073d74bae0b4f80adfe1a5977589c3eade854cc773031f07195ca047cdb"
+      ]
+    },
+    {
+      "id": "OlympiadBench_test_000589_4259046ff580",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/OlympiadBench_test_000589_4259046ff580.jpg"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "OlympiadBench",
+        "source_subset": "OlympiadBench",
+        "source_id": "OlympiadBench:OlympiadBench:unknown:OE_MM_physics_zh_CEE:450",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "544e262806ae86e2fc21a9023f2fddb750a933499df3f9fce329a1134062dd64"
+      ]
+    },
+    {
+      "id": "OlympiadBench_test_000655_f9c623d6110c",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/OlympiadBench_test_000655_f9c623d6110c.jpg"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "OlympiadBench",
+        "source_subset": "OlympiadBench",
+        "source_id": "OlympiadBench:OlympiadBench:unknown:OE_MM_physics_zh_CEE:789",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "6edd54a112bcf170bc312f254415a23cf8014b10acb9c1ee23e8ae589602273d"
+      ]
+    },
+    {
+      "id": "OlympiadBench_test_000195_aa8fc5816084",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/OlympiadBench_test_000195_aa8fc5816084.jpg"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "OlympiadBench",
+        "source_subset": "OlympiadBench",
+        "source_id": "OlympiadBench:OlympiadBench:unknown:OE_MM_maths_zh_CEE:818",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "8a357c01d659a3228be01e534a375fbcdf5aff99bd8b88892db1f1661618597a"
+      ]
+    },
+    {
+      "id": "OlympiadBench_test_000433_085568fba3d8",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/OlympiadBench_test_000433_085568fba3d8.jpg"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "OlympiadBench",
+        "source_subset": "OlympiadBench",
+        "source_id": "OlympiadBench:OlympiadBench:unknown:OE_MM_physics_en_COMP:73",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "900dd29e49d897b4b03a3ff7c1d0ed2fff5beee8c16fc0b378ec8fb08ba50776"
+      ]
+    },
+    {
+      "id": "Physics_test_000978_b5340d3747dd",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Physics_test_000978_b5340d3747dd.jpg"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "Physics",
+        "source_subset": "default",
+        "source_id": "Physics:default:train:train-00001-of-00002:1346",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "b519fcf8bb0e94600da7eedd1fdd11b743494fe0b9ba12ff04322025503fe751"
+      ]
+    },
+    {
+      "id": "Physics_test_000348_ce17ae0b42b5",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Physics_test_000348_ce17ae0b42b5.jpg"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "Physics",
+        "source_subset": "default",
+        "source_id": "Physics:default:train:train-00000-of-00002:1692",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "c36b8a790d794405eebeac0bc18c8f4ef39f29f36f0026df134113a5f494965f"
+      ]
+    },
+    {
+      "id": "Physics_test_001186_a60714aa0875",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Physics_test_001186_a60714aa0875.jpg"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "Physics",
+        "source_subset": "default",
+        "source_id": "Physics:default:train:train-00001-of-00002:2333",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "bff75546a158900676b97e3d58ed0c9acc3b59e84c0f7a5caedc1779a6655a09"
+      ]
+    },
+    {
+      "id": "Physics_test_001114_d1d855007cdc",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Physics_test_001114_d1d855007cdc.jpg"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "Physics",
+        "source_subset": "default",
+        "source_id": "Physics:default:train:train-00001-of-00002:1970",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "98ea340c8a448dea94b9d48b621d399c0fef8b35bbc41db89967f8d870d46787"
+      ]
+    },
+    {
+      "id": "Physics_test_000718_be15d4b17076",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Physics_test_000718_be15d4b17076.jpg"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "Physics",
+        "source_subset": "default",
+        "source_id": "Physics:default:train:train-00001-of-00002:80",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "c09bb017040f838cd9ab3e43ef4768f62f75bf055869b3a04c6b41f351de8a67"
+      ]
+    },
+    {
+      "id": "Physics_test_000030_1b78bd192354",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Physics_test_000030_1b78bd192354.jpg"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "Physics",
+        "source_subset": "default",
+        "source_id": "Physics:default:train:train-00000-of-00002:115",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "0c7ed0a18d3f5d5d573fed76477f5cc0c8612df5e49fb2f084bea45f2de1bcf6"
+      ]
+    },
+    {
+      "id": "dvqa_test_001898_56bbc2879abb",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_001898_56bbc2879abb.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00008-of-00009:9784:9",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "605236dadc25a52b23c58127f963101a53e6b5fa76f35744877499aa73b91a8b"
+      ]
+    },
+    {
+      "id": "dvqa_test_000376_5b052e93cdfc",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_000376_5b052e93cdfc.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00001-of-00009:16513:1",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "1e8180ffad10cd613f706b3ba6b3f1d6dd55e988f70537a5f2045af6dbf25fe6"
+      ]
+    },
+    {
+      "id": "dvqa_test_001240_a75998aedfdf",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_001240_a75998aedfdf.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00005-of-00009:10012:2",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "c2f0097ad4572a56e70d6912cb988db713c8f1a7c490d98561a29591d442cb01"
+      ]
+    },
+    {
+      "id": "dvqa_test_001467_5be276b0f481",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_001467_5be276b0f481.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00006-of-00009:10721:6",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "6fdaacabc4c5147f96690da02e2db2377b5f5a45ed272aedb43291aa4d565ac5"
+      ]
+    },
+    {
+      "id": "dvqa_test_001286_a286d7cadfae",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_001286_a286d7cadfae.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00005-of-00009:14620:11",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "cb16d69ade47962f0f258c14994aaa5db7b383ac0a2409c314b5a87647570217"
+      ]
+    },
+    {
+      "id": "dvqa_test_000630_6ccb0c9d5b5d",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_000630_6ccb0c9d5b5d.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00002-of-00009:16919:9",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "caee7f6c06380d03d9f790468ff108ac5a64914ab3bea6cf2c8b1d7087a7c17f"
+      ]
+    },
+    {
+      "id": "dvqa_test_000042_6913cabd41b1",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_000042_6913cabd41b1.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00000-of-00009:4459:1",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "592b9b9e44381552cc698a7daddc2d487a79fc67269c61b0f8d80c4872fb17ad"
+      ]
+    },
+    {
+      "id": "dvqa_test_001662_5009f57a5e26",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_001662_5009f57a5e26.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00007-of-00009:7397:7",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "da2ddbc7a06f6fb5ead621b3bafe8abac100c3870a0837ffa88cb844a19e5bd7"
+      ]
+    },
+    {
+      "id": "figureqa_test_001166_ee87985574d9",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_001166_ee87985574d9.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00003-of-00005:5162:5",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "2c1cab0ac2f046068f6db76dcb32dba4f507511dac6e2c84dc3cbc98d159734c"
+      ]
+    },
+    {
+      "id": "figureqa_test_000099_f7b63b916aaa",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_000099_f7b63b916aaa.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00000-of-00005:5016:8",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "89c3b3c8adf0c619b9c9b0e7dfdc6e0feb174de73b85521bad76046ac505c2a7"
+      ]
+    },
+    {
+      "id": "figureqa_test_000367_204b4735cd67",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_000367_204b4735cd67.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00001-of-00005:989:2",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "c2ed8656f67393f1d9d5097168a652922fafeb2373ae4bd51d055b82b6a71490"
+      ]
+    },
+    {
+      "id": "figureqa_test_001263_fbfb4ac5e436",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_001263_fbfb4ac5e436.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00003-of-00005:9526:8",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "adea847102768da9200479586ea99ede81a44c9148655139c34433bd1e2be014"
+      ]
+    },
+    {
+      "id": "figureqa_test_000267_cb84e7751175",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_000267_cb84e7751175.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00000-of-00005:15393:5",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "b9b6c4d6ff84493364d4c1bc961f7e720f19d5344ed6c4d98ba66a7897c44a1b"
+      ]
+    },
+    {
+      "id": "figureqa_test_000759_c24e4d117326",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_000759_c24e4d117326.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00002-of-00005:3916:3",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "c46b285c5a70a08284fe5725523c153c0e04e93eabbbad55299b6fe5107ba75e"
+      ]
+    },
+    {
+      "id": "figureqa_test_000883_cdf9f595db92",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_000883_cdf9f595db92.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00002-of-00005:11490:2",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "477a4e4670cd21f6f0362c6498b56f1d8a4c8724aeff6d02ec8adcf165bb8dff"
+      ]
+    },
+    {
+      "id": "figureqa_test_000876_842aa191045c",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_000876_842aa191045c.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00002-of-00005:10865:4",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "70790b60c30733fde41ef1f28d0135560af1c5dec5966effa5c416a2a8b5d815"
+      ]
+    },
+    {
+      "id": "geometry3k_test_000486_75780baadf1d",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/geometry3k_test_000486_75780baadf1d.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "geometry3k",
+        "source_subset": "default",
+        "source_id": "geometry3k:default:test:test-00000-of-00001:485",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "a115d7e918bf48e049a5fbd4c5105248981e137bbc534fdb04890ab14ba073af"
+      ]
+    },
+    {
+      "id": "geometry3k_test_000352_62788e1e2c83",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/geometry3k_test_000352_62788e1e2c83.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "geometry3k",
+        "source_subset": "default",
+        "source_id": "geometry3k:default:test:test-00000-of-00001:351",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "060bc0c906acb5ef5dd11ae96c5f60698167d4673655bc77c78a8d487575269e"
+      ]
+    },
+    {
+      "id": "geometry3k_test_000516_b5ed99e48cc4",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/geometry3k_test_000516_b5ed99e48cc4.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "geometry3k",
+        "source_subset": "default",
+        "source_id": "geometry3k:default:test:test-00000-of-00001:515",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "8015c05b8d0388d448f7945acb59a7c5fd53659ab9e7a496d2b91606870fc47f"
+      ]
+    },
+    {
+      "id": "geometry3k_test_000027_ffab577642c1",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/geometry3k_test_000027_ffab577642c1.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "geometry3k",
+        "source_subset": "default",
+        "source_id": "geometry3k:default:test:test-00000-of-00001:26",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "891d4e6e7fb6a1a209e9a3f06a33d4ce8dc15e64fca2a6515a3aa4a48b22f3ae"
+      ]
+    },
+    {
+      "id": "matplotlib_test_000006_e0d45255f990",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/matplotlib_test_000006_e0d45255f990.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "matplotlib",
+        "source_subset": "default",
+        "source_id": "matplotlib:default:stable__gallery__spines__spine_placement_demo:figure_000.png",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "af1eec740376d0a91434be7f4484f074d34f2a19bdd75c62be82d51cada65521"
+      ]
+    },
+    {
+      "id": "matplotlib_test_000136_d131b8ac17c0",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/matplotlib_test_000136_d131b8ac17c0.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "matplotlib",
+        "source_subset": "default",
+        "source_id": "matplotlib:default:stable__gallery__text_labels_and_annotations__figlegend_demo:figure_000.png",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "7da0b51188efe7177720ed280b6c5ff5a4b61d397aedb69e5890545bc4ef27b3"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_000594_75fdfa7e0302",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_000594_75fdfa7e0302.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00005-of-00018:584",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "70661ddc11b98e64e111355cae1210c2ba0a2c6fbb96b3d6772658ecd85f68d5"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_000070_885ae39ac843",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_000070_885ae39ac843.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00000-of-00018:1503",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "9bbbcce1215a38688d13c024e63c21f8a8759f963f3b5b71427c22c7a2886cdf"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_000970_423576c651ad",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_000970_423576c651ad.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00008-of-00018:1621",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "8ce8adfd897b4ba8732f9638d124c548670bd470c5937ef6d11f6a4f98e2898c"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_000966_17313405e8a0",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_000966_17313405e8a0.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00008-of-00018:1457",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "c7ac0174f98feb288ba3cae7de7fc97f0dce9bf770e2a19ddd0348c13804b348"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_000235_5b76bcdeb9f2",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_000235_5b76bcdeb9f2.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00002-of-00018:553",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "a6008843f3002ed34307d90aed3f08eccd68983555a6518dab8f467b0de3cfca"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_001629_89138f1c204d",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_001629_89138f1c204d.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00014-of-00018:1549",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "08b4353bd75c49be32899f411ea36a42413f7ed54407e52d30fb8d9f691f80da"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_000687_9142b23d44a3",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_000687_9142b23d44a3.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00006-of-00018:305",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "107bce6554ada03ba243087b02317204ed0f0c0ed775506e36179f0950d4759b"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_000792_393f0834a9f7",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_000792_393f0834a9f7.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00007-of-00018:155",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "f8e27515df9fef31afa5e433e0484927e5e14b81906cc24552cab45a42e7b057"
+      ]
+    }
+  ],
+  "test": [
+    {
+      "id": "ChartQA_test_001587_6cc921047189",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_001587_6cc921047189.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:1586",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "7366dd9b8d42ebeacf43c77d2f1ff4eabdbd10e1a28feb9171dc0719386ab5b0"
+      ]
+    },
+    {
+      "id": "ChartQA_test_002241_33e02e25bde4",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_002241_33e02e25bde4.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:2240",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "7bf6921cae69362b337c4bf2381f9f97bf98db4cd8aeddf6e6d62bf7934eff6c"
+      ]
+    },
+    {
+      "id": "ChartQA_test_000063_9f413323b66c",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_000063_9f413323b66c.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:62",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "c20cea99ae21bcf1200b60107ea5d3a3a366e7b9f163c15ceb5093de1cf5f4cc"
+      ]
+    },
+    {
+      "id": "ChartQA_test_002493_dedbe8d07205",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_002493_dedbe8d07205.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:2492",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "615ce244b8113a3959011d57c6962c82e2c6daf2bc45572c72428b4e4a7a24f5"
+      ]
+    },
+    {
+      "id": "ChartQA_test_001385_5ca86d2d66c9",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_001385_5ca86d2d66c9.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:1384",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "c0245f442bf0b6c1f29629f0e0dfc2aff85c2aa32f61b8ba79807986198d2dcb"
+      ]
+    },
+    {
+      "id": "ChartQA_test_001416_d68d49d2f883",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_001416_d68d49d2f883.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:1415",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "90a6ee14cd719691ba452fe37c936b60b90b721510a80e549605021b3a4e1de8"
+      ]
+    },
+    {
+      "id": "ChartQA_test_000916_91b54c44ee07",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_000916_91b54c44ee07.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:915",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "b54f8463193c948213d3b421c5ad9af8b365fd47b8d81f3720b8f371c018e5f2"
+      ]
+    },
+    {
+      "id": "ChartQA_test_000499_525d9da8a755",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_000499_525d9da8a755.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:498",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "873057aaf334197504671c97ba7ecaa0f920fc4c7e321256629e65a2fc993ef1"
+      ]
+    },
+    {
+      "id": "ChartQA_test_000238_212c4c35da67",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChartQA_test_000238_212c4c35da67.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "ChartQA",
+        "source_subset": "default",
+        "source_id": "ChartQA:default:test:test-00000-of-00001-e2cd0b7a0f9eb20d:237",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "248e586e39539779caff96d384e6234e751a0c8075f4aa21548860c68d89a211"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_002449_5f66efe239cb",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_002449_5f66efe239cb.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:2448",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "fa7ab332628aecab675b9e13eafe2c86d2be4345c52a2c3ff34a4817426be62e"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_002927_6d8af617f74d",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_002927_6d8af617f74d.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:2926",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "ef76004fc59b21daceda2ff15571fdca6c159047c2459550cd86ef1c8a254d4f"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_001232_6c2a07be3c73",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_001232_6c2a07be3c73.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:1231",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "99c6967c757f407f902550e9ff5b3e12e5eb1ba3c305264c5ae71d2edeb6e7e7"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_003258_58d6ee8e1dbc",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_003258_58d6ee8e1dbc.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:3257",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "e099f2a04487c1688ef11a6d14cbfbb41a77946d7af2e8fedbee6cc0b1c4c493"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_000849_c36298e50f01",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_000849_c36298e50f01.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:848",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "86e3cc57216582bbabf3104d1e3e759e49a5ac24a3d86e0ed8379d390801272f"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_000254_8a538132ba75",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_000254_8a538132ba75.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:253",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "da16c23500d4b7652b51d0398874d2a6f988c8334ed1c76960d8cfc406345b44"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_003736_bc147d5ae604",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_003736_bc147d5ae604.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:3735",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "ebb0f743d0923241710a0ba53186f9e171c4cc2b834f22152b893e5bf8438eeb"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_002581_7e66c3213391",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_002581_7e66c3213391.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:2580",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "8bec115cbe6f1150ce70ec822414c9e766fc38ebb759493d04a94880bc66202e"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_003536_5e69c975db37",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_003536_5e69c975db37.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:3535",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "41e5829905302bd7c2b8b94003159bedcb3fd21ab5ebf1d2cf84a1d11a370006"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_003484_40e530bc580c",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_003484_40e530bc580c.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:3483",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "f8be004282e0d4df42bc4ad50762b0fd1a5e3c24b15dba74aed0740122cfdf5c"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_003263_90d62c4f4231",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_003263_90d62c4f4231.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:3262",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "4d3d63ed66d991e195c87fa4f75275446f00a286a22f461c42a04c851dc047ce"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_002648_5835aae532db",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_002648_5835aae532db.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:2647",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "46a9585a6435d233634854430e2c07006417a1917593169a24d1f46a1a7dfff2"
+      ]
+    },
+    {
+      "id": "ChemVQA-2K_test_000912_7898d96fc4f1",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/ChemVQA-2K_test_000912_7898d96fc4f1.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "ChemVQA-2K",
+        "source_subset": "default",
+        "source_id": "ChemVQA-2K:default:test:test-00000-of-00001:911",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "52f73e287f014964de0852cf947603b8833ef87a90c4ce8763ba334a2b5a8fa0"
+      ]
+    },
+    {
+      "id": "DocVQA_test_004130_4b40f94472de",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_004130_4b40f94472de.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00004-of-00006:669",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "a3d900753d28f7aabaf3364a90470f684c13742f6518fbe8bddb6b0a1f65d1ad"
+      ]
+    },
+    {
+      "id": "DocVQA_test_001821_d8b12acb49f1",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_001821_d8b12acb49f1.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00002-of-00006:90",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "66431d25125856ca810624417f2fde6de04fc930551d9e1d4e56bdde53eeb09a"
+      ]
+    },
+    {
+      "id": "DocVQA_test_001869_75f74a891cb9",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_001869_75f74a891cb9.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00002-of-00006:138",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "e575459a58ac6874d5fe810b459632654f856879bcca480cd553a639bddea0ab"
+      ]
+    },
+    {
+      "id": "DocVQA_test_003656_a8080f9f9b4c",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_003656_a8080f9f9b4c.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00004-of-00006:195",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "ac5b694fc1c228e5cda5e3c54f2550ddf9af7346d02b90adfa732c363af3db88"
+      ]
+    },
+    {
+      "id": "DocVQA_test_004398_768667e0dc9b",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_004398_768667e0dc9b.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00005-of-00006:73",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "1ff477c75e679757c666d3a57c6e03633edf46575592921d82ef7a2e16ef88e7"
+      ]
+    },
+    {
+      "id": "DocVQA_test_004987_4683b72a0a8a",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_004987_4683b72a0a8a.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00005-of-00006:662",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "7527dd71239cafa329e63eef870368ad2a5b131365e1db5386abdbba1bbc5640"
+      ]
+    },
+    {
+      "id": "DocVQA_test_002015_ab5c502279a2",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_002015_ab5c502279a2.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00002-of-00006:284",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "8da8e862a8f04cefd3b24736ea57b5c69fe901cf8a041b834a1ed2f0f965226e"
+      ]
+    },
+    {
+      "id": "DocVQA_test_002619_d8f3ddc72c79",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_002619_d8f3ddc72c79.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00003-of-00006:23",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "f662fc82d5d7623f8d685ab2eb78c7d021c6b8174e25a4d93f57b9c1eea6e8bf"
+      ]
+    },
+    {
+      "id": "DocVQA_test_004389_80972def5432",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_004389_80972def5432.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00005-of-00006:64",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "1c2cc1784b4ec6247231a4a2d42e93656f88b9dadff8c9c6464bb72a6a8d57d2"
+      ]
+    },
+    {
+      "id": "DocVQA_test_004006_43d9ae3859d4",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_004006_43d9ae3859d4.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00004-of-00006:545",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "2f7b39fbbf5f1f618d665a91b55ba34d81354f1a11c55a6a20826ca962a88bab"
+      ]
+    },
+    {
+      "id": "DocVQA_test_004994_091a18526527",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_004994_091a18526527.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00005-of-00006:669",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "6cf5f64cd2e94978be30933deafb43171bb8dfa80a2053c4fcdf37b347d29cf6"
+      ]
+    },
+    {
+      "id": "DocVQA_test_001039_bcb0b08ab662",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_001039_bcb0b08ab662.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00001-of-00006:173",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "3dc3da6f3de9675a6bd2ae1bc067428ab8904846eebc9a737f2799ef05f71b69"
+      ]
+    },
+    {
+      "id": "DocVQA_test_003139_908ffbb4ac15",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_003139_908ffbb4ac15.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00003-of-00006:543",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "40c6895645f24330d29df863cb622f62a381ed0e3f0c35d6565cef2ccdba2c47"
+      ]
+    },
+    {
+      "id": "DocVQA_test_004357_1e1621d49e9b",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Documents",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/DocVQA_test_004357_1e1621d49e9b.png"
+      ],
+      "metadata": {
+        "category": "Documents",
+        "source_dataset": "DocVQA",
+        "source_subset": "DocVQA",
+        "source_id": "DocVQA:DocVQA:test:test-00005-of-00006:32",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "824e6e471964fa9324543d6142869e7ac9cdccb714829318177a4e5673f6e1eb"
+      ]
+    },
+    {
+      "id": "EEE-Bench_test_000095_80139f616388",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/EEE-Bench_test_000095_80139f616388.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "EEE-Bench",
+        "source_subset": "default",
+        "source_id": "EEE-Bench:default:test:test:426",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "408730fbb83f20784232c6884b3bf3e1e3e46792566f444f351c3d59453b54e8"
+      ]
+    },
+    {
+      "id": "EEE-Bench_test_000002_d95190ce3735",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/EEE-Bench_test_000002_d95190ce3735.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "EEE-Bench",
+        "source_subset": "default",
+        "source_id": "EEE-Bench:default:test:test:11",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "3d135fc093297a083553cbfe6a6f4387205fd01e80cf22afa921c94c99b06efd"
+      ]
+    },
+    {
+      "id": "EEE-Bench_test_000538_ef3be86155ed",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/EEE-Bench_test_000538_ef3be86155ed.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "EEE-Bench",
+        "source_subset": "default",
+        "source_id": "EEE-Bench:default:test:test:2755",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "90db55ae8a9a2c1e777e743ed513f76314dba09c2c742ef9040c1bfbc9b42219"
+      ]
+    },
+    {
+      "id": "EEE-Bench_test_000561_1782bc17e0fd",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/EEE-Bench_test_000561_1782bc17e0fd.png"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "EEE-Bench",
+        "source_subset": "default",
+        "source_id": "EEE-Bench:default:test:testmini:1",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "ca134954ae229be81badc56fe0aaa2c85a57531ac6b294d5e8811a55b9f19ada"
+      ]
+    },
+    {
+      "id": "GEOQA_8K_R1V_test_000532_78bdc189882d",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/GEOQA_8K_R1V_test_000532_78bdc189882d.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "GEOQA_8K_R1V",
+        "source_subset": "default",
+        "source_id": "GEOQA_8K_R1V:default:test:test-00000-of-00001:531",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "15914fde722e796977e6da8c5a2db59e124bf195aeaccc4c6f0e079f52a10654"
+      ]
+    },
+    {
+      "id": "GEOQA_8K_R1V_test_000467_a1f8b4b83f0c",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/GEOQA_8K_R1V_test_000467_a1f8b4b83f0c.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "GEOQA_8K_R1V",
+        "source_subset": "default",
+        "source_id": "GEOQA_8K_R1V:default:test:test-00000-of-00001:466",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "0e402541977d4ea846db65e29c7cc9ec524cdd0b20974112ae6b48f57c2cfc2a"
+      ]
+    },
+    {
+      "id": "GEOQA_8K_R1V_test_000678_38f239755284",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/GEOQA_8K_R1V_test_000678_38f239755284.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "GEOQA_8K_R1V",
+        "source_subset": "default",
+        "source_id": "GEOQA_8K_R1V:default:test:test-00000-of-00001:677",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "dc3d921c537ce3e3e2bc70eca07bfe3779d149bc54597fa2a42d8c0e29d69cee"
+      ]
+    },
+    {
+      "id": "GEOQA_8K_R1V_test_000672_d60800907d76",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/GEOQA_8K_R1V_test_000672_d60800907d76.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "GEOQA_8K_R1V",
+        "source_subset": "default",
+        "source_id": "GEOQA_8K_R1V:default:test:test-00000-of-00001:671",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "3cc9cd589f99e775c7f9dfda3065afa2bfd76cd2eae3cbcfd1b10ccb5895f4e4"
+      ]
+    },
+    {
+      "id": "Geoperception_test_000277_7aa228a3847d",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_000277_7aa228a3847d.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:1800",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "180eb31df48a6c2c61cb210676491875c03a1947c012a6e872e03303ddeb8d97"
+      ]
+    },
+    {
+      "id": "Geoperception_test_001291_bf7ee1744339",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_001291_bf7ee1744339.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:9276",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "7c699290502a4b264e93f8fc8a4636cd2aa34ec4f1301bd86c5d061af4c5ad80"
+      ]
+    },
+    {
+      "id": "Geoperception_test_001023_7d79fc13aa8e",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_001023_7d79fc13aa8e.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:7276",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "2a43a69153317dc6c2b0cbcfa4c20a81782ddc66e4fb0ca30af4c0f52a2f79da"
+      ]
+    },
+    {
+      "id": "Geoperception_test_000199_5e735c3c0c5e",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_000199_5e735c3c0c5e.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:1250",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "91321c611a903d60b16d23263fb93cbae7101086b3972d3f7e4fcd34a466ab55"
+      ]
+    },
+    {
+      "id": "Geoperception_test_000298_8f39daaeb2d0",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_000298_8f39daaeb2d0.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:1957",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "c1a71ed9dda927e9af999dac768b52572732339c6ee3e3da71c146bb457ae24e"
+      ]
+    },
+    {
+      "id": "Geoperception_test_000213_3af830992738",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_000213_3af830992738.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:1345",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "88824623d1458c6ef9f8bd3f72088fe80179511abcc63ec74082a415b0a5861d"
+      ]
+    },
+    {
+      "id": "Geoperception_test_001228_9f02f769f418",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Geoperception_test_001228_9f02f769f418.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "Geoperception",
+        "source_subset": "default",
+        "source_id": "Geoperception:default:train:train-00000-of-00001:8803",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "5840bb9752e1e9892e2070e56d4f043f17f94c9630b05c119bc7a18f51160f0f"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_000233_eb132898f31d",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_000233_eb132898f31d.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00000-of-00007:1091",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "832f27f97119e8171e2648cda86a0b513bc90e5b04aa1e5214cf5d58781f2e87"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_000312_db00100a0db7",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_000312_db00100a0db7.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00001-of-00007:29",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "aa7e2331744e84b0ad6d16e9abc1a006684518c5cb489422d8e2e9c7fbd0d538"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_000477_3d06c109f331",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_000477_3d06c109f331.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00001-of-00007:873",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "da2ac244ab8af0baa3cd3a3d56404921e55081fa2c7283176282dad368032dfa"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_000401_0abd747e4890",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_000401_0abd747e4890.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00001-of-00007:489",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "67b806b70640418c666ffd79bd696e02afa9cd30a248662878c7fde6c0a83085"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_000980_a6f27d49b9cd",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_000980_a6f27d49b9cd.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00003-of-00007:619",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "19f7c488eb6c16364cf0776217c67b18f5e643ed356b21a00cc9eaec86729f55"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_000220_e665bc5170de",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_000220_e665bc5170de.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00000-of-00007:1009",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "0090c61df6ebfd952ba18da52cd4dc267ce24fd4a438f0fd9a1b1660c398f488"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_000877_bb6dcc7f91f8",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_000877_bb6dcc7f91f8.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00003-of-00007:45",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "728cd917d892397cfd853f3964d96cc8cd270a3f1bd3d37f904260bcf7579d9b"
+      ]
+    },
+    {
+      "id": "Graph-Algorithms_test_000541_ced5d862bccb",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Graphs",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Graph-Algorithms_test_000541_ced5d862bccb.jpg"
+      ],
+      "metadata": {
+        "category": "Graphs",
+        "source_dataset": "Graph-Algorithms",
+        "source_subset": "default",
+        "source_id": "Graph-Algorithms:default:train:train-00001-of-00007:1280",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "50b2f1ca05a4ba83421655bba699c7e97f63a4bd7ad458e3de88805233d1628c"
+      ]
+    },
+    {
+      "id": "OlympiadBench_test_000360_3bea098ea2e5",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/OlympiadBench_test_000360_3bea098ea2e5.jpg"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "OlympiadBench",
+        "source_subset": "OlympiadBench",
+        "source_id": "OlympiadBench:OlympiadBench:unknown:OE_MM_maths_zh_CEE:1679",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "fe4043071a5edfa70f829edd9215d6e7c81a6debd5deb45704c05a7da5c8e0d5"
+      ]
+    },
+    {
+      "id": "OlympiadBench_test_000606_a9f30d729d6d",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/OlympiadBench_test_000606_a9f30d729d6d.jpg"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "OlympiadBench",
+        "source_subset": "OlympiadBench",
+        "source_id": "OlympiadBench:OlympiadBench:unknown:OE_MM_physics_zh_CEE:523",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "e0ccda0b0b6552595b817e5c54ba5734a99f41f3f9127c67f192c28b33464aa5"
+      ]
+    },
+    {
+      "id": "OlympiadBench_test_000059_e34ea03b0a23",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/OlympiadBench_test_000059_e34ea03b0a23.jpg"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "OlympiadBench",
+        "source_subset": "OlympiadBench",
+        "source_id": "OlympiadBench:OlympiadBench:unknown:OE_MM_maths_zh_CEE:109",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "cbc2a373751aeaa3c27543623cd5fdb40eeb7a2e29b4b046c44d296eba733dce"
+      ]
+    },
+    {
+      "id": "OlympiadBench_test_001496_d07968f61eab",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/OlympiadBench_test_001496_d07968f61eab.jpg"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "OlympiadBench",
+        "source_subset": "OlympiadBench",
+        "source_id": "OlympiadBench:OlympiadBench:unknown:TP_MM_physics_en_COMP:6",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "3ca1511467e4a51ad0ef510d1c00e81a8fc4aed9277d5cd63626485800401717"
+      ]
+    },
+    {
+      "id": "OlympiadBench_test_000689_7cd0df045522",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/OlympiadBench_test_000689_7cd0df045522.jpg"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "OlympiadBench",
+        "source_subset": "OlympiadBench",
+        "source_id": "OlympiadBench:OlympiadBench:unknown:OE_MM_physics_zh_CEE:952",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "28b7ff6d66e1b2088d1701389106da0bdb1ab13476bc712567bfb6bf4fe74b19"
+      ]
+    },
+    {
+      "id": "Physics_test_001270_fb83e3f8b03c",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Physics_test_001270_fb83e3f8b03c.jpg"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "Physics",
+        "source_subset": "default",
+        "source_id": "Physics:default:train:train-00001-of-00002:2799",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "4b21d8ff1df31198d1cc39975902b62e7d24f0bf1ee75c80b7297de9bb92a282"
+      ]
+    },
+    {
+      "id": "Physics_test_000467_6c277cd89ec9",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Physics_test_000467_6c277cd89ec9.jpg"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "Physics",
+        "source_subset": "default",
+        "source_id": "Physics:default:train:train-00000-of-00002:2289",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "6707d75faa4e341092f278167420299e1e62d9a25015b782101b08f2849da8c0"
+      ]
+    },
+    {
+      "id": "Physics_test_001340_076c47240ee9",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Physics_test_001340_076c47240ee9.jpg"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "Physics",
+        "source_subset": "default",
+        "source_id": "Physics:default:train:train-00001-of-00002:3158",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "0c798ea4aee298d49c7f9756c3a9e81babe2da3b0683d0ec1d11d278da41cd21"
+      ]
+    },
+    {
+      "id": "Physics_test_000303_e9e3f2bb0878",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Physics_test_000303_e9e3f2bb0878.jpg"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "Physics",
+        "source_subset": "default",
+        "source_id": "Physics:default:train:train-00000-of-00002:1393",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "7bfacf8a8f7d43b6c4123d316fbf62e3a68793fc0c1342b9c90b6a65a8a7e622"
+      ]
+    },
+    {
+      "id": "Physics_test_001129_79ee37e518a6",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Physics_test_001129_79ee37e518a6.jpg"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "Physics",
+        "source_subset": "default",
+        "source_id": "Physics:default:train:train-00001-of-00002:2019",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "28bfe94d7941427eb02fa3758748fac0c4471840f573ef7449122b44283865c3"
+      ]
+    },
+    {
+      "id": "Physics_test_000992_827d35e39d81",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Science",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/Physics_test_000992_827d35e39d81.jpg"
+      ],
+      "metadata": {
+        "category": "Science",
+        "source_dataset": "Physics",
+        "source_subset": "default",
+        "source_id": "Physics:default:train:train-00001-of-00002:1417",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "53b2bbca0c254a0f12be07961e12beb361d29a692744347f41291b3a51904c8a"
+      ]
+    },
+    {
+      "id": "dvqa_test_000724_7c7fc918c889",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_000724_7c7fc918c889.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00003-of-00009:2814:0",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "433290c4e3a2f4dcf463d89ee099561475b478ef0303d1f16ae930ad338450d0"
+      ]
+    },
+    {
+      "id": "dvqa_test_001839_8d1b40cf8cc0",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_001839_8d1b40cf8cc0.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00008-of-00009:4022:12",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "62b04d91ad61e031cecaf5f134a9a2d0107cd9ba48069df511e153ee8bfa4107"
+      ]
+    },
+    {
+      "id": "dvqa_test_000094_98028eb70daf",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_000094_98028eb70daf.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00000-of-00009:9559:8",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "9514cc4f53f101131f9c85013183d0f528376aae0d2b6113225e4915f3fd81df"
+      ]
+    },
+    {
+      "id": "dvqa_test_000522_d522baed9cd9",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_000522_d522baed9cd9.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00002-of-00009:7673:7",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "e692c674ceb78557d5a23f3b6033aefb72cd2b4a4f0f96c318b4bc563c9372dd"
+      ]
+    },
+    {
+      "id": "dvqa_test_001596_fdacf03f4af8",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_001596_fdacf03f4af8.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00007-of-00009:1487:1",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "780e052f09d8ab2328d718ee69cc967d29dcdad2e063ea496a587bb586587adf"
+      ]
+    },
+    {
+      "id": "dvqa_test_000761_91b5ce6087b9",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_000761_91b5ce6087b9.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00003-of-00009:6307:13",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "290657da259e08b15996e292212cc2e42e6578178cb3f9ee2e9b7e78ed1b832d"
+      ]
+    },
+    {
+      "id": "dvqa_test_001838_55e1d5eedd7b",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_001838_55e1d5eedd7b.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00008-of-00009:3703:5",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "a87a8226bbaf5e7ae2c30048d14969f6f2cd57343efeedfd20c33070c74804b8"
+      ]
+    },
+    {
+      "id": "dvqa_test_000354_800c099b8ebf",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/dvqa_test_000354_800c099b8ebf.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "dvqa",
+        "source_subset": "default",
+        "source_id": "dvqa:default:train:train-00001-of-00009:14400:0",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "5b05272e5117d3337b5b7fea5260df123e864ca50a23bb01f0005d7b32810dae"
+      ]
+    },
+    {
+      "id": "figureqa_test_001495_84339f699bb9",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_001495_84339f699bb9.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00004-of-00005:90:0",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "3821bd710f94fcce8c79242c74d0c9a018025da79599cfb068e5107cfe236ba4"
+      ]
+    },
+    {
+      "id": "figureqa_test_001126_72fe71769d1c",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_001126_72fe71769d1c.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00003-of-00005:3251:2",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "4d408de04f558aa97cde912e5d6a243705f9f5f0f1d9ce752c1f20af7880fd4b"
+      ]
+    },
+    {
+      "id": "figureqa_test_000748_17ef23de74b5",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_000748_17ef23de74b5.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00002-of-00005:3506:1",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "341ef9ac4c1bfd667fdd67071b61032f96126187cb3e2b1566cbe3a3f0784181"
+      ]
+    },
+    {
+      "id": "figureqa_test_000919_91c9477203f6",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_000919_91c9477203f6.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00002-of-00005:13654:7",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "5b78f2187de6f1206581cf5a86bf648eec1b6265a261500fcad00c4aae0b6397"
+      ]
+    },
+    {
+      "id": "figureqa_test_001319_c6094b2b678e",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_001319_c6094b2b678e.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00003-of-00005:11969:14",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "06b9ab26bf8fdaf91ef8b94a8f6797e24921a10cc38d9205ae3aff6761dec35c"
+      ]
+    },
+    {
+      "id": "figureqa_test_001100_257277d4be97",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_001100_257277d4be97.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00003-of-00005:2345:8",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "02c1ec7cd4ca391a471403699a447090d6cec213138f47120115f6f5be8b73a2"
+      ]
+    },
+    {
+      "id": "figureqa_test_001247_0416959f1fe8",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_001247_0416959f1fe8.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00003-of-00005:8985:15",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "3000dca0369ddc122f07159b1b3736fe6a44ffc81b68afb493deaaf8eb900187"
+      ]
+    },
+    {
+      "id": "figureqa_test_001796_209722fb01c8",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/figureqa_test_001796_209722fb01c8.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "figureqa",
+        "source_subset": "default",
+        "source_id": "figureqa:default:train:train-00004-of-00005:11839:16",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "57dc2a77abde27669945821ea52b88b5dc748b2d843b4a1807f87edc94c3f40a"
+      ]
+    },
+    {
+      "id": "geometry3k_test_000137_69b76a559b6a",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/geometry3k_test_000137_69b76a559b6a.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "geometry3k",
+        "source_subset": "default",
+        "source_id": "geometry3k:default:test:test-00000-of-00001:136",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "18b7aa0d5c254365e8817ebd8b9663454ee921f0d124c4fc7e3a1939fcac4876"
+      ]
+    },
+    {
+      "id": "geometry3k_test_000574_14ce53dcb6cf",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/geometry3k_test_000574_14ce53dcb6cf.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "geometry3k",
+        "source_subset": "default",
+        "source_id": "geometry3k:default:test:test-00000-of-00001:573",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "9a87aafb5c9f548f808615632e70376fef2954c8c9c882663630757da34d84af"
+      ]
+    },
+    {
+      "id": "geometry3k_test_000502_a1c9447294a6",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/geometry3k_test_000502_a1c9447294a6.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "geometry3k",
+        "source_subset": "default",
+        "source_id": "geometry3k:default:test:test-00000-of-00001:501",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "1edac50c26a88420e6b5d0ceaf2934d5783ec01c938f434a745008f6d4f7f01d"
+      ]
+    },
+    {
+      "id": "geometry3k_test_000258_78ebaad7ab18",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Geometry",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/geometry3k_test_000258_78ebaad7ab18.png"
+      ],
+      "metadata": {
+        "category": "Geometry",
+        "source_dataset": "geometry3k",
+        "source_subset": "default",
+        "source_id": "geometry3k:default:test:test-00000-of-00001:257",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "f0eab4ded9738666c64aa2469dc0f1922ad5b1eebfef29c8dabaada161ec570f"
+      ]
+    },
+    {
+      "id": "matplotlib_test_000068_2b8c691af750",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/matplotlib_test_000068_2b8c691af750.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "matplotlib",
+        "source_subset": "default",
+        "source_id": "matplotlib:default:stable__gallery__specialty_plots__radar_chart:figure_000.png",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "d183bd12ded0cfb0c2f056a6a4d81811b0e39773a0ad84e12ae5f178b124761d"
+      ]
+    },
+    {
+      "id": "matplotlib_test_000028_929011fdbd5e",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Charts&Plots",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/matplotlib_test_000028_929011fdbd5e.png"
+      ],
+      "metadata": {
+        "category": "Charts&Plots",
+        "source_dataset": "matplotlib",
+        "source_subset": "default",
+        "source_id": "matplotlib:default:stable__gallery__axes_grid1__demo_fixed_size_axes:figure_001.png",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "24be218addfd08ed66a5eb8bb6ab00033efa49a41c8d3ce92c449140ce6bb7a1"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_001564_56283eba7d12",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_001564_56283eba7d12.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00014-of-00018:383",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "113c5e0354f7268cac70a52d2082aaa52c36bdabe1e070be3221df98db9d6691"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_001398_5add2a876158",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_001398_5add2a876158.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00012-of-00018:1556",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "3ef905ad4c6fe86f6fedc9221294995bc7cd1300a6cb44fb077037dace6cb412"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_000546_f63a7e950fd1",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_000546_f63a7e950fd1.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00004-of-00018:1853",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "cd1ff422cb7b09b26442d9fa8b41cec3a17ed7cbe264ba2891509beeb468b600"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_001378_e41b1f9f69a4",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_001378_e41b1f9f69a4.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00012-of-00018:1182",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "d4b6db2b253f7973a812cfae119482f6ca9c79b2207277d9bbbe052c146f8644"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_000111_405d947e93bc",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_000111_405d947e93bc.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00000-of-00018:2117",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "fbd8dcdcbc9adcb5f4a773ce4eac4501a42f5f274883975b5764a6dc2787e069"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_000268_82ae68c0331f",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_000268_82ae68c0331f.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00002-of-00018:1181",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "2ed5b026bf4d03bfe46cd0769f1bed0116b25389ba745bc6e901820bebb6a86e"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_000903_4ac4bdda64fd",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_000903_4ac4bdda64fd.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00008-of-00018:141",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "2f617d7cfea0bf57a48af607ef5162be06c670dd062387aa2372ad12b916c3d5"
+      ]
+    },
+    {
+      "id": "spatialvlm_qa_test_000149_c296667c3ec9",
+      "benchmark": "vision2code",
+      "split": "test",
+      "prompt": "Generate Python code to recreate the current reference image.",
+      "query": "recreate image visual code Spatial",
+      "images": [
+        "/root/VLM-Memory/Benchmark/Vision2Code/data/kaggle/vision2code/images/test/spatialvlm_qa_test_000149_c296667c3ec9.png"
+      ],
+      "metadata": {
+        "category": "Spatial",
+        "source_dataset": "spatialvlm_qa",
+        "source_subset": "default",
+        "source_id": "spatialvlm_qa:default:train:train-00001-of-00018:752",
+        "release_split": "test"
+      },
+      "image_hashes": [
+        "45edb33599743eb43197da538d223679ba54b8c864775f31682b9c70b5862ff3"
+      ]
+    }
+  ],
+  "dev": [],
+  "selection": {
+    "source": "official Vision2Code test pool, restricted to released local image assets",
+    "stratification": "proportional stratification by source dataset (15 source datasets); same quotas in both sets, covering all six domains",
+    "source_dataset_quotas_per_set": {
+      "ChartQA": 9,
+      "ChemVQA-2K": 13,
+      "DocVQA": 14,
+      "EEE-Bench": 4,
+      "GEOQA_8K_R1V": 4,
+      "Geoperception": 7,
+      "Graph-Algorithms": 8,
+      "OlympiadBench": 5,
+      "Physics": 6,
+      "dvqa": 8,
+      "figureqa": 8,
+      "geometry3k": 4,
+      "matplotlib": 2,
+      "spatialvlm_qa": 8
+    },
+    "available_local_test_images_before_pilot_exclusion": 1994,
+    "prior_pilot_ids_and_images_excluded": true,
+    "isolation": "disjoint task IDs and exact image SHA256 across the 100/100 sets",
+    "note": "The local release has no source training images. Therefore this is a custom split within the official evaluation pool; report as benchmark-internal memory generalization, not as the official Vision2Code leaderboard score."
+  },
+  "near_duplicate_policy": "Exclude prior pilot IDs and exact image hashes; MP-DocVQA also excludes document IDs across and within sets. Semantic/template near duplicates are not certified.",
+  "test_policy": "Static evaluation: bank is frozen; no test feedback or answer is written to memory."
+}

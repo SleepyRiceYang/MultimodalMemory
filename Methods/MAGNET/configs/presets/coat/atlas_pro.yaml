@@ -1,0 +1,15 @@
+INCLUDE:
+  - ../../fragments/base_modern.yaml
+  - ../../fragments/models/atlas.yaml
+  - ../../fragments/action_space/atlas.yaml
+  - ../../fragments/datasets/amex.yaml
+OUTPUT_DIR: "artifacts/runs/atlas_pro"
+METRICS_DIR: "metrics"
+MODEL:
+  NAME: Atlas-Pro-7B
+  QWENVL_MODEL: Atlas-Pro-7B
+DATA:
+  DATASET: amex
+  SPLIT: val_id_app
+  USE_SCREEN_TAG: true
+  BBOX_FORMAT: relative_int

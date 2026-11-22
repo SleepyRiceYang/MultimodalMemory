@@ -1,0 +1,12 @@
+INCLUDE:
+  - ../../fragments/base_legacy.yaml
+  - ../../fragments/modes/coat/coat_bbox.yaml
+  - ../../fragments/models/command_line_default.yaml
+OUTPUT_DIR: "/mnt/shanghai1/slb/agent/results/odyssey/intermediate/val_sample"
+METRICS_DIR: "metrics_bbox_test"
+DATA:
+  DATA_DIR: "/mnt/shanghai1/slb/agent/data/gui_odyssey"
+  SPLIT: "val_sample"
+  DATASET: odyssey
+  USE_SCREEN_TAG: true
+  BBOX_FORMAT: relative_int

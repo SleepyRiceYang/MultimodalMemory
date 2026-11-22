@@ -1,0 +1,22 @@
+{
+  "model": {
+    "base_url": "http://127.0.0.1:8000/v1",
+    "name": "qwen3-vl-8b-instruct",
+    "api_key_env": "LOCAL_MODEL_API_KEY",
+    "temperature": 0,
+    "max_tokens": 2048,
+    "timeout": 180,
+    "image_max_side": 768
+  },
+  "memory": {
+    "top_k": 3,
+    "max_images": 2,
+    "max_text_chars": 6000,
+    "online_updates": false,
+    "darwinian_risk_threshold": 0.8
+  },
+  "benchmarks": ["mathvision", "vision2code"],
+  "baselines": ["no_memory", "raw_multimodal", "raw_text", "raw_visual", "ksi_style", "magnet_adapted", "darwinian_adapted", "evoskill_adapted"],
+  "vision2code": {"rater_max_tokens": 3072, "render_timeout": 30},
+  "data_mode": "synthetic_history_real_benchmark_smoke"
+}

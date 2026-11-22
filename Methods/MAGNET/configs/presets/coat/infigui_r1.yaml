@@ -1,0 +1,8 @@
+INCLUDE:
+  - ../../fragments/base_modern.yaml
+  - ../../fragments/models/infigui_r1.yaml
+OUTPUT_DIR: "artifacts/runs/infigui_r1"
+METRICS_DIR: "metrics"
+MODEL:
+  NAME: InfiGUI-R1-3B
+  QWENVL_MODEL: InfiGUI-R1-3B

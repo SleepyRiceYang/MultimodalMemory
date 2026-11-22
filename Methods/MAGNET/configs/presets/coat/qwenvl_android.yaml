@@ -1,0 +1,13 @@
+INCLUDE:
+  - ../../fragments/base_modern.yaml
+  - ../../fragments/modes/coat/coat_bbox.yaml
+  - ../../fragments/models/qwenvl_coat.yaml
+  - ../../fragments/action_space/qwenvl_bbox.yaml
+OUTPUT_DIR: "artifacts/runs/qwenvl_android"
+METRICS_DIR: "metrics"
+DATA:
+  DATASET: android-in-the-zoo
+  SPLIT: test
+  DATA_DIR: ""
+  USE_SCREEN_TAG: true
+  BBOX_FORMAT: relative_int

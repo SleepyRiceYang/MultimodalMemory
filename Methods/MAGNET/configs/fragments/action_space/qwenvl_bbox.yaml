@@ -1,0 +1,65 @@
+PROMPTS:
+  ACTION_SPACE:
+    SCREEN_TAG: |-
+      CLICK_ELEMENT:
+        summary: click on the visible element on the screen
+        usage:
+          [1] API call: click_element(bbox=)
+          [2] Args:
+            - bbox: 'The bounding box of the element to be clicked, formed as [xmin, ymin, xmax, ymax].'
+          [3] Example: click_element(bbox=[10, 20, 30, 40])
+          [4] Return: None
+
+      SCROLL:
+        summary: move the scrollable content, or open the app drawer
+        explanation: 
+          - Scrolling down typically means moving scrollable content to see what's further down. If content is moving up, you are scrolling down. 
+          - Scrolling up could either open the app drawer, or move back to view the previous content on the same screen.
+        usage:
+          [1] API call: scroll(direction=)
+          [2] Args:
+            - direction: 'Scroll direction. One of ''up'', ''down'', ''left'', ''right''.'
+          [3] Example: scroll(direction="up")
+          [4] Return: None
+
+      INPUT:
+        summary: input text to an editable input area
+        usage:
+          [1] API call: input(text="")
+          [2] Args:
+            - text: 'The text input to the editable input area.'
+          [3] Example: input(text="Hello World")
+          [4] Return: None
+
+      PRESS_ENTER:
+        summary: confirm the input, or submit the input, or start a new line of text
+        usage:
+          [1] API call: press_enter()
+          [2] Args: None
+          [3] Example: press_enter()
+          [4] Return: None
+
+      PRESS_HOME:
+        summary: directly move back to the home screen
+        usage:
+          [1] API call: press_home()
+          [2] Args: None
+          [3] Example: press_home()
+          [4] Return: None
+
+      PRESS_BACK:
+        summary: return to the most recently visited screen or interface
+        usage:
+          [1] API call: press_back()
+          [2] Args: None
+          [3] Example: press_back()
+          [4] Return: None
+
+      STOP:
+        summary: stop and set the state of the task
+        usage:
+          [1] API call: stop(task_status=)
+          [2] Args:
+            - task_status: 'Decide on whether the task is a success or failure. Choose one of ''success'', ''failure''.'
+          [3] Example: stop(task_status="success")
+          [4] Return: None

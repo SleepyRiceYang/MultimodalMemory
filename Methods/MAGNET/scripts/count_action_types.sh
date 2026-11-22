@@ -1,0 +1,1 @@
+python scripts/count_action_types.py artifacts/runs/exhaustive/amex/val_id_app/pairs/qwen2-5-vl-32b__proc1__aitzmem__qwen2-5-vl-32b__stat1__aitzmem__bbox --field action_predict action_desc

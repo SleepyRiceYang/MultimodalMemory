@@ -1,0 +1,14 @@
+{
+  "mathvision": [
+    "556",
+    "1470"
+  ],
+  "vision2code": [
+    "ChartQA_test_002183_b6e7675ec75e",
+    "ChemVQA-2K_test_002833_8cce8ce1f0ef"
+  ],
+  "mpdocvqa": [
+    "35622",
+    "32954"
+  ]
+}

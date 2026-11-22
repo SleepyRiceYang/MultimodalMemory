@@ -1,0 +1,12 @@
+MODEL:
+  NAME: "gemini-coat"
+  OPENAI_API_URL: "https://api.ai-gaochao.cn/v1"
+  OPENAI_API_KEY: ""
+  GEMINI_API_KEY: ""
+  GEMINI_MODEL: gemini-pro-vision
+  QWENVL_API_KEY: ""
+  QWENVL_API_URL: "http://localhost:8182/v1"
+  QWENVL_MODEL: Qwen2.5-VL-32B
+  DASHSCOPE_API_KEY: ""
+  DASHSCOPE_MODEL: qwen-vl-max
+  MAX_IMAGE_SIDE: 1024

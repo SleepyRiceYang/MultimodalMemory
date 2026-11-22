@@ -1,0 +1,10 @@
+{
+  "root": "/remote-home/lbsun/OmniParser",
+  "weights_dir": "/remote-home/lbsun/OmniParser/weights",
+  "box_threshold": 0.05,
+  "iou_threshold": 0.1,
+  "imgsz": 640,
+  "batch_size": 128,
+  "easyocr_threshold": 0.9,
+  "use_paddleocr": false
+}

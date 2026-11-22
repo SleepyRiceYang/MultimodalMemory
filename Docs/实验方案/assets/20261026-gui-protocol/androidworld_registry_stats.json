@@ -1,0 +1,825 @@
+{
+  "total": 116,
+  "complexity_counts": {
+    "1.2": 17,
+    "2": 10,
+    "2.2": 3,
+    "3.4": 8,
+    "1.4": 4,
+    "1": 25,
+    "6": 7,
+    "1.8": 5,
+    "1.6": 3,
+    "7.8": 1,
+    "1.3": 1,
+    "2.0": 1,
+    "12": 1,
+    "2.4": 4,
+    "4": 1,
+    "3.2": 1,
+    "3": 1,
+    "5": 1,
+    "2.8": 1,
+    "4.8": 1,
+    "1.0": 20
+  },
+  "app_counts_multilabel": {
+    "audio recorder": 2,
+    "chrome": 3,
+    "simple calendar pro": 8,
+    "camera": 3,
+    "clock": 4,
+    "contacts": 3,
+    "pro expense": 9,
+    "simple gallery pro": 4,
+    "markor": 17,
+    "files": 2,
+    "clipper": 3,
+    "vlc": 3,
+    "simple sms messenger": 7,
+    "osmand": 3,
+    "broccoli app": 13,
+    "retro music": 4,
+    "simple draw pro": 1,
+    "settings": 15,
+    "dialer": 1
+  },
+  "items": [
+    {
+      "task": "AudioRecorderRecordAudio",
+      "apps": [
+        "audio recorder"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "AudioRecorderRecordAudioWithFileName",
+      "apps": [
+        "audio recorder"
+      ],
+      "complexity": 2
+    },
+    {
+      "task": "BrowserDraw",
+      "apps": [
+        "chrome"
+      ],
+      "complexity": 2
+    },
+    {
+      "task": "BrowserMaze",
+      "apps": [
+        "chrome"
+      ],
+      "complexity": 2
+    },
+    {
+      "task": "BrowserMultiply",
+      "apps": [
+        "chrome"
+      ],
+      "complexity": 2.2
+    },
+    {
+      "task": "SimpleCalendarAddOneEvent",
+      "apps": [
+        "simple calendar pro"
+      ],
+      "complexity": 3.4
+    },
+    {
+      "task": "SimpleCalendarAddOneEventInTwoWeeks",
+      "apps": [
+        "simple calendar pro"
+      ],
+      "complexity": 3.4
+    },
+    {
+      "task": "SimpleCalendarAddOneEventRelativeDay",
+      "apps": [
+        "simple calendar pro"
+      ],
+      "complexity": 3.4
+    },
+    {
+      "task": "SimpleCalendarAddOneEventTomorrow",
+      "apps": [
+        "simple calendar pro"
+      ],
+      "complexity": 3.4
+    },
+    {
+      "task": "SimpleCalendarAddRepeatingEvent",
+      "apps": [
+        "simple calendar pro"
+      ],
+      "complexity": 3.4
+    },
+    {
+      "task": "SimpleCalendarDeleteEvents",
+      "apps": [
+        "simple calendar pro"
+      ],
+      "complexity": 1.4
+    },
+    {
+      "task": "SimpleCalendarDeleteEventsOnRelativeDay",
+      "apps": [
+        "simple calendar pro"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "SimpleCalendarDeleteOneEvent",
+      "apps": [
+        "simple calendar pro"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "CameraTakePhoto",
+      "apps": [
+        "camera"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "CameraTakeVideo",
+      "apps": [
+        "camera"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "ClockStopWatchPausedVerify",
+      "apps": [
+        "clock"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "ClockStopWatchRunning",
+      "apps": [
+        "clock"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "ClockTimerEntry",
+      "apps": [
+        "clock"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "ContactsAddContact",
+      "apps": [
+        "contacts"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "ContactsNewContactDraft",
+      "apps": [
+        "contacts"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "ExpenseAddMultiple",
+      "apps": [
+        "pro expense"
+      ],
+      "complexity": 6
+    },
+    {
+      "task": "ExpenseAddMultipleFromGallery",
+      "apps": [
+        "pro expense",
+        "simple gallery pro"
+      ],
+      "complexity": 6
+    },
+    {
+      "task": "ExpenseAddMultipleFromMarkor",
+      "apps": [
+        "pro expense",
+        "markor"
+      ],
+      "complexity": 6
+    },
+    {
+      "task": "ExpenseAddSingle",
+      "apps": [
+        "pro expense"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "ExpenseDeleteDuplicates",
+      "apps": [
+        "pro expense"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "ExpenseDeleteDuplicates2",
+      "apps": [
+        "pro expense"
+      ],
+      "complexity": 1.8
+    },
+    {
+      "task": "ExpenseDeleteMultiple",
+      "apps": [
+        "pro expense"
+      ],
+      "complexity": 2
+    },
+    {
+      "task": "ExpenseDeleteMultiple2",
+      "apps": [
+        "pro expense"
+      ],
+      "complexity": 3.4
+    },
+    {
+      "task": "ExpenseDeleteSingle",
+      "apps": [
+        "pro expense"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "FilesDeleteFile",
+      "apps": [
+        "files"
+      ],
+      "complexity": 2.2
+    },
+    {
+      "task": "FilesMoveFile",
+      "apps": [
+        "files"
+      ],
+      "complexity": 2
+    },
+    {
+      "task": "MarkorAddNoteHeader",
+      "apps": [
+        "markor"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "MarkorChangeNoteContent",
+      "apps": [
+        "markor"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "MarkorCreateFolder",
+      "apps": [
+        "markor"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "MarkorCreateNote",
+      "apps": [
+        "markor"
+      ],
+      "complexity": 1.6
+    },
+    {
+      "task": "MarkorCreateNoteFromClipboard",
+      "apps": [
+        "markor",
+        "clipper"
+      ],
+      "complexity": 1.4
+    },
+    {
+      "task": "MarkorDeleteAllNotes",
+      "apps": [
+        "markor"
+      ],
+      "complexity": 1.4
+    },
+    {
+      "task": "MarkorDeleteNewestNote",
+      "apps": [
+        "markor"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "MarkorDeleteNote",
+      "apps": [
+        "markor"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "MarkorEditNote",
+      "apps": [
+        "markor"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "MarkorMergeNotes",
+      "apps": [
+        "markor"
+      ],
+      "complexity": 7.8
+    },
+    {
+      "task": "MarkorMoveNote",
+      "apps": [
+        "markor"
+      ],
+      "complexity": 1.4
+    },
+    {
+      "task": "MarkorTranscribeReceipt",
+      "apps": [
+        "simple gallery pro",
+        "markor"
+      ],
+      "complexity": 1.8
+    },
+    {
+      "task": "MarkorTranscribeVideo",
+      "apps": [
+        "markor",
+        "vlc"
+      ],
+      "complexity": 2
+    },
+    {
+      "task": "MarkorCreateNoteAndSms",
+      "apps": [
+        "markor",
+        "simple sms messenger"
+      ],
+      "complexity": 1.8
+    },
+    {
+      "task": "OsmAndFavorite",
+      "apps": [
+        "osmand"
+      ],
+      "complexity": 1.3
+    },
+    {
+      "task": "OsmAndMarker",
+      "apps": [
+        "osmand"
+      ],
+      "complexity": 2.0
+    },
+    {
+      "task": "OsmAndTrack",
+      "apps": [
+        "osmand"
+      ],
+      "complexity": 12
+    },
+    {
+      "task": "RecipeAddMultipleRecipes",
+      "apps": [
+        "broccoli app"
+      ],
+      "complexity": 6
+    },
+    {
+      "task": "RecipeAddMultipleRecipesFromImage",
+      "apps": [
+        "broccoli app",
+        "simple gallery pro"
+      ],
+      "complexity": 6
+    },
+    {
+      "task": "RecipeAddMultipleRecipesFromMarkor",
+      "apps": [
+        "broccoli app",
+        "markor"
+      ],
+      "complexity": 6
+    },
+    {
+      "task": "RecipeAddMultipleRecipesFromMarkor2",
+      "apps": [
+        "broccoli app",
+        "markor"
+      ],
+      "complexity": 6
+    },
+    {
+      "task": "RecipeAddSingleRecipe",
+      "apps": [
+        "broccoli app"
+      ],
+      "complexity": 2.4
+    },
+    {
+      "task": "RecipeDeleteDuplicateRecipes",
+      "apps": [
+        "broccoli app"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "RecipeDeleteDuplicateRecipes2",
+      "apps": [
+        "broccoli app"
+      ],
+      "complexity": 2.4
+    },
+    {
+      "task": "RecipeDeleteDuplicateRecipes3",
+      "apps": [
+        "broccoli app"
+      ],
+      "complexity": 3.4
+    },
+    {
+      "task": "RecipeDeleteMultipleRecipes",
+      "apps": [
+        "broccoli app"
+      ],
+      "complexity": 2.4
+    },
+    {
+      "task": "RecipeDeleteMultipleRecipesWithConstraint",
+      "apps": [
+        "broccoli app"
+      ],
+      "complexity": 4
+    },
+    {
+      "task": "RecipeDeleteMultipleRecipesWithNoise",
+      "apps": [
+        "broccoli app"
+      ],
+      "complexity": 3.4
+    },
+    {
+      "task": "RecipeDeleteSingleRecipe",
+      "apps": [
+        "broccoli app"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "RecipeDeleteSingleWithRecipeWithNoise",
+      "apps": [
+        "broccoli app"
+      ],
+      "complexity": 2
+    },
+    {
+      "task": "RetroCreatePlaylist",
+      "apps": [
+        "retro music"
+      ],
+      "complexity": 2.4
+    },
+    {
+      "task": "RetroPlayingQueue",
+      "apps": [
+        "retro music"
+      ],
+      "complexity": 3.2
+    },
+    {
+      "task": "RetroPlaylistDuration",
+      "apps": [
+        "retro music"
+      ],
+      "complexity": 3
+    },
+    {
+      "task": "RetroSavePlaylist",
+      "apps": [
+        "retro music"
+      ],
+      "complexity": 5
+    },
+    {
+      "task": "SimpleDrawProCreateDrawing",
+      "apps": [
+        "simple draw pro"
+      ],
+      "complexity": 1.8
+    },
+    {
+      "task": "SaveCopyOfReceiptTaskEval",
+      "apps": [
+        "simple gallery pro"
+      ],
+      "complexity": 1.6
+    },
+    {
+      "task": "SimpleSmsReply",
+      "apps": [
+        "simple sms messenger"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "SimpleSmsReplyMostRecent",
+      "apps": [
+        "simple sms messenger"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "SimpleSmsResend",
+      "apps": [
+        "simple sms messenger"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "SimpleSmsSend",
+      "apps": [
+        "simple sms messenger"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "SimpleSmsSendClipboardContent",
+      "apps": [
+        "simple sms messenger",
+        "clipper"
+      ],
+      "complexity": 1.2
+    },
+    {
+      "task": "SimpleSmsSendReceivedAddress",
+      "apps": [
+        "simple sms messenger"
+      ],
+      "complexity": 1.8
+    },
+    {
+      "task": "OpenAppTaskEval",
+      "apps": [
+        "camera",
+        "clock",
+        "contacts",
+        "settings",
+        "dialer"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemBluetoothTurnOff",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemBluetoothTurnOffVerify",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemBluetoothTurnOn",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemBluetoothTurnOnVerify",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemBrightnessMax",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemBrightnessMaxVerify",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemBrightnessMin",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemBrightnessMinVerify",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemCopyToClipboard",
+      "apps": [
+        "clipper"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemWifiTurnOff",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemWifiTurnOffVerify",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemWifiTurnOn",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "SystemWifiTurnOnVerify",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 1
+    },
+    {
+      "task": "TurnOffWifiAndTurnOnBluetooth",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 2
+    },
+    {
+      "task": "TurnOnWifiAndOpenApp",
+      "apps": [
+        "settings"
+      ],
+      "complexity": 2
+    },
+    {
+      "task": "VlcCreatePlaylist",
+      "apps": [
+        "vlc"
+      ],
+      "complexity": 2.8
+    },
+    {
+      "task": "VlcCreateTwoPlaylists",
+      "apps": [
+        "vlc"
+      ],
+      "complexity": 4.8
+    },
+    {
+      "task": "SimpleCalendarEventsOnDate",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "SimpleCalendarNextEvent",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "SimpleCalendarEventOnDateAtTime",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "SimpleCalendarAnyEventsOnDate",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "SimpleCalendarNextMeetingWithPerson",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "SimpleCalendarLocationOfEvent",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "SimpleCalendarEventsInNextWeek",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "SimpleCalendarFirstEventAfterStartTime",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "SimpleCalendarEventsInTimeRange",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "TasksDueOnDate",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "TasksHighPriorityTasks",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "TasksHighPriorityTasksDueOnDate",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "TasksDueNextWeek",
+      "apps": [],
+      "complexity": 1.2
+    },
+    {
+      "task": "TasksCompletedTasksForDate",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "TasksIncompleteTasksOnDate",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "SportsTrackerActivitiesOnDate",
+      "apps": [],
+      "complexity": 2
+    },
+    {
+      "task": "SportsTrackerActivitiesCountForWeek",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "SportsTrackerActivityDuration",
+      "apps": [],
+      "complexity": 1.2
+    },
+    {
+      "task": "SportsTrackerLongestDistanceActivity",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "SportsTrackerTotalDurationForCategoryThisWeek",
+      "apps": [],
+      "complexity": 1.6
+    },
+    {
+      "task": "SportsTrackerTotalDistanceForCategoryOverInterval",
+      "apps": [],
+      "complexity": 2.2
+    },
+    {
+      "task": "NotesRecipeIngredientCount",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "NotesMeetingAttendeeCount",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "NotesIsTodo",
+      "apps": [],
+      "complexity": 1.0
+    },
+    {
+      "task": "NotesTodoItemCount",
+      "apps": [],
+      "complexity": 1.0
+    }
+  ]
+}

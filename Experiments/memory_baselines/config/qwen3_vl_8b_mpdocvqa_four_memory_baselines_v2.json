@@ -1,0 +1,57 @@
+{
+  "model": {
+    "base_url": "http://127.0.0.1:8107/v1",
+    "name": "qwen3-vl-8b-instruct",
+    "api_key_env": "LOCAL_MODEL_API_KEY",
+    "temperature": 0,
+    "max_tokens": 8192,
+    "construction_max_tokens": 32768,
+    "timeout": 1800,
+    "image_max_side": 1024
+  },
+  "memory": {
+    "top_k": 3,
+    "max_images": 2,
+    "max_text_chars": 16000,
+    "online_updates": false,
+    "darwinian_risk_threshold": 0.8
+  },
+  "benchmarks": [
+    "mpdocvqa"
+  ],
+  "baselines": [
+    "raw_multimodal",
+    "ksi_style",
+    "ksi_visual",
+    "magnet_adapted"
+  ],
+  "vision2code": {
+    "rater_max_tokens": 3072,
+    "render_timeout": 30
+  },
+  "sampling": {
+    "seed": 20261023,
+    "history_count": 100,
+    "test_count": 100,
+    "mpdocvqa_max_pages": 20
+  },
+  "fixed_split_dir": "Experiments/memory_baselines/splits/100_100_seed_20261023",
+  "data_mode": "benchmark_internal_disjoint_100_memory_100_test_fixed_manifest_mpdocvqa",
+  "prompt_version": "formal_100_100",
+  "retrieval": {
+    "enabled": true,
+    "embedding_url": "http://127.0.0.1:8087",
+    "embedding_model": "/data/pretrained_models/BAAI-bge-large-en-v1.5",
+    "top_n": 20,
+    "query_max_images": 2,
+    "scope_policy": "memory_conditions_v1",
+    "bounded_rerank": true
+  },
+  "memory_construction": {
+    "protocol": "paired_ksi_magnet_v1",
+    "parse_retries": 3,
+    "magnet_protocol": "described_complete_link_v2",
+    "magnet_v2_threshold": 0.8593494892120361,
+    "magnet_v2_calibration": "Experiments/memory_baselines/artifacts/diagnostics/magnet_v2_20261025/mpdocvqa/magnet_v2/calibration.json"
+  }
+}

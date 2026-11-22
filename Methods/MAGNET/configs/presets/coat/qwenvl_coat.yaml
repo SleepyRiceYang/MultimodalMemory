@@ -1,0 +1,12 @@
+INCLUDE:
+  - ../../fragments/base_modern.yaml
+  - ../../fragments/modes/coat/coat_bbox.yaml
+  - ../../fragments/models/qwenvl_coat.yaml
+  - ../../fragments/action_space/qwenvl_bbox.yaml
+OUTPUT_DIR: "artifacts/runs/qwenvl"
+METRICS_DIR: "metrics"
+DATA:
+  DATASET: amex
+  SPLIT: val_id_app
+  USE_SCREEN_TAG: true
+  BBOX_FORMAT: relative_int

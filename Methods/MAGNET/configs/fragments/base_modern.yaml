@@ -1,0 +1,303 @@
+DEMO_NAME: "CoATAgent"
+OUTPUT_DIR: "artifacts/runs/default"
+METRICS_DIR: "metrics"
+
+DATA:
+  DATASET: "android-in-the-zoo"
+  DATA_DIR: ""
+  SPLIT: "test"
+  USE_SCREEN_TAG: true
+  BBOX_FORMAT: "relative_int"
+
+MODEL:
+  NAME: "command_line"
+  OPENAI_API_URL: ""
+  OPENAI_API_KEY: ""
+  GEMINI_API_KEY: ""
+  GEMINI_MODEL: gemini-pro-vision
+  QWENVL_API_KEY: ""
+  QWENVL_API_URL: ""
+  QWENVL_MODEL: ""
+  DASHSCOPE_API_KEY: ""
+  DASHSCOPE_MODEL: ""
+  MAX_IMAGE_SIDE: 1024
+
+MEMORY:
+  STATIONARY: false
+  STATIONARY_THRESHOLD: 0.7
+  PROCEDURAL: false
+  PROCEDURAL_THRESHOLD: 0.4
+  INHERIT_COUNTER: true
+  HINT_ENABLE: false
+  HINT_K: 5
+  TM_THRESHOLD: 0.3
+  OMNIPARSER_CONFIG: ""
+
+PROMPTS:
+  SCREEN_DESC:
+    SYSTEM: |-
+      You are a smart and helpful visual assistant that is well trained to describe smartphone screenshots.
+      - You are provided with a screenshot of the current mobile phone.
+      - You are required to describe this screen about its main content and its functionality. The output must be less than five sentences. 
+      - You are required to keep the description as concise and brief as possible.
+    USER: |-
+      <CURRENT SCREENSHOT>: {screenshot}
+      <YOUR RESPONSE>: 
+
+  ACTION_THINK_DESC:
+    SYSTEM: |-
+      You are a smart and helpful visual assistant that is well trained to manipulate mobile phones.
+      Your task is to navigate and take action on the current screen step-by-step to complete the user request.
+      - You are provided with a screenshot of the current mobile phone, together with the textual screen description.
+      - You are provided with your history actions to decide on your next action. You can backtrack to revise the previous actions when necessary.
+      - You are required to analyze the task status and detail a reasonable future action plan to accomplish the user request.
+      - You are required to select the next single-step action based on your analysis and action plan.
+
+      ## Analysis Guidelines
+      - You should check whether the history actions have accomplished the user request.
+      - You should check the apps, icons, and buttons that are visible on the current screen and might pertain to the user request.
+      - You should combine the above information and describe your future action plan.
+      - The "Future Action Plan" must consist of a sequence of concrete, low-level action steps.
+      - **Each action step should be a dictionary with two fields:**
+        - `"type"`: one of the allowed action space: [CLICK_ELEMENT, SCROLL, INPUT, PRESS_ENTER, PRESS_HOME, PRESS_BACK, STOP]
+        - `"description"`: a natural language sentence that clearly describes the action to be taken
+
+      ## Output Format
+      You are required to respond in a JSON format, consisting of 3 distinct parts with the following keys and corresponding content:
+
+      ```json
+      {
+        "Thought": "<Analyze the logic behind your next single-step action and your future action plan to fulfill the user request.>", 
+        "Future Action Plan": [
+          {"type": "<ACTION_TYPE>", "description": "<Natural language description of the action>"},
+          {"type": "<ACTION_TYPE>", "description": "<Natural language description of the action>"},
+          ...
+        ],
+        "Next Single Step Action": {
+          "type": "<ACTION_TYPE>",
+          "description": "<Natural language description of the action>"
+        }
+      }
+      ```
+
+    USER: |-
+      <CURRENT SCREENSHOT>: {screenshot}
+      <SCREEN DESCRIPTION>: {screen_desc}
+      <HISTORY ACTIONS>: {history_actions}
+      <USER REQUEST>: {user_request}
+      <YOUR RESPONSE>: 
+
+  THINK_DESC:
+    SYSTEM: |-
+      You are a smart and helpful visual assistant that is well trained to manipulate mobile phones.
+      Your task is to navigate and take action on the current screen step-by-step to complete the user request.
+      - You are provided with a screenshot of the current mobile phone, together with the textual screen description.
+      - You are provided with your history actions to decide on your next action. You can backtrack to revise the previous actions when necessary.
+      - You are required to analyze the task status and detail a reasonable future action plan to accomplish the user request.
+
+      ## Analysis Guidelines
+      - You should check whether the history actions have accomplished the user request.
+      - You should check the apps, icons, and buttons that are visible on the current screen and might pertain to the user request.
+      - You should combine the above information and describe your future action plan.
+      - The "Future Action Plan" must consist of a sequence of concrete, low-level action steps.
+      - **Each action step should be a dictionary with two fields:**
+        - `"type"`: one of the allowed action space: [CLICK_ELEMENT, SCROLL, INPUT, PRESS_ENTER, PRESS_HOME, PRESS_BACK, STOP]
+        - `"description"`: a natural language sentence that clearly describes the action to be taken
+
+      ## Output Format
+      You are required to respond in a JSON format, consisting of 2 distinct parts with the following keys and corresponding content:
+
+      ```json
+      {
+        "Thought": "<Analyze the logic behind your next single-step action and your future action plan to fulfill the user request.>", 
+        "Future Action Plan": [
+          {"type": "<ACTION_TYPE>", "description": "<Natural language description of the action>"},
+          {"type": "<ACTION_TYPE>", "description": "<Natural language description of the action>"},
+          ...
+        ]
+      }
+      ```
+
+    USER: |-
+      <CURRENT SCREENSHOT>: {screenshot}
+      <SCREEN DESCRIPTION>: {screen_desc}
+      <HISTORY ACTIONS>: {history_actions}
+      <USER REQUEST>: {user_request}
+      <YOUR RESPONSE>: 
+
+  THINK_DESC_WITH_MEMORY:
+    SYSTEM: |-
+      You are a smart and helpful visual assistant that is well trained to manipulate mobile phones.
+      Your task is to navigate and take action on the current screen step-by-step to complete the user request.
+      - You are provided with a screenshot of the current mobile phone, together with the textual screen description.
+      - You are provided with your history actions to decide on your next action. You can backtrack to revise the previous actions when necessary.
+      - You are provided with some relevant workflows for reference.
+      - You are required to analyze the task status and detail a reasonable future action plan to accomplish the user request.
+
+      ## Analysis Guidelines
+      - You should check whether the history actions have accomplished the user request.
+      - You should check the apps, icons, and buttons that are visible on the current screen and might pertain to the user request.
+      - You should combine the above information and describe your future action plan. If the given workflows are relevant and helpful, you may refer to them for guidance.
+      - The "Future Action Plan" must consist of a sequence of concrete, low-level action steps.
+      - **Each action step should be a dictionary with two fields:**
+        - `"type"`: one of the allowed action space: [CLICK_ELEMENT, SCROLL, INPUT, PRESS_ENTER, PRESS_HOME, PRESS_BACK, STOP]
+        - `"description"`: a natural language sentence that clearly describes the action to be taken
+
+      ## Output Format
+      You are required to respond in a JSON format, consisting of 3 distinct parts with the following keys and corresponding content:
+
+      ```json
+      {
+        "Thought": "<Analyze the logic behind your next single-step action and your future action plan to fulfill the user request.>", 
+        "Future Action Plan": [
+          {"type": "<ACTION_TYPE>", "description": "<Natural language description of the action>"},
+          {"type": "<ACTION_TYPE>", "description": "<Natural language description of the action>"},
+          ...
+        ],
+        "Reference to Workflows": "<Explain how the provided workflows informed or guided your decision. Mention if any specific workflow matches the current task or if you are generalizing from multiple examples. If no workflow is relevant, state that explicitly.>"
+      }
+      ```
+
+    USER: |-
+      <CURRENT SCREENSHOT>: {screenshot}
+      <SCREEN DESCRIPTION>: {screen_desc}
+      <HISTORY ACTIONS>: {history_actions}
+      <USER REQUEST>: {user_request}
+      <RELEVANT WORKFLOWS>: {relevant_workflows}
+      <YOUR RESPONSE>: 
+
+  ACTION_DESC_WITH_MEMORY:
+    SYSTEM: |-
+      You are a smart and helpful visual assistant that is well trained to manipulate mobile phones.  
+      Your task is to navigate and take action on the current screen step-by-step to complete the user request.  
+      - You are provided with a screenshot of the current mobile phone, together with the textual screen description.  
+      - You are provided with your history actions to decide on your next action. You can backtrack to revise the previous actions when necessary.  
+      - You are provided with a "Future Action Plan" that outlines the expected steps to fulfill the user request.  
+      - You are provided with a "Relevant UI Element" that visually represents the most relevant UI component for the next action.  
+      - You are required to select the next single-step action based on the provided information.  
+
+      ## Action Selection Guidelines  
+      - You should check whether the history actions have already accomplished the user request.  
+      - You should check the apps, icons, and buttons that are visible on the current screen and might pertain to the user request.  
+      - You should refer to the "Future Action Plan" to determine if any planned action is applicable at this step.  
+      - You should use the "Relevant UI Element" to locate the most appropriate target for interaction.  
+      - You should determine the best next single-step action that makes progress toward fulfilling the user request.
+
+
+      ## Output Format  
+      - You are required to respond in a JSON format, consisting of the following key and corresponding content:  
+      - The action step should be a dictionary with two fields:
+        - `"type"`: one of the allowed action space: [CLICK_ELEMENT, SCROLL, INPUT, PRESS_ENTER, PRESS_HOME, PRESS_BACK, STOP]
+        - `"description"`: a natural language sentence that clearly describes the action to be taken  
+      {  
+        "Next Single Step Action": {
+          "type": "<ACTION_TYPE>",
+          "description": "<Natural language description of the action>"
+        }  
+      }  
+      - You can not output anything except for the above JSON.  
+
+    USER: |-
+      <CURRENT SCREENSHOT>: {screenshot}  
+      <SCREEN DESCRIPTION>: {screen_desc}  
+      <HISTORY ACTIONS>: {history_actions}  
+      <USER REQUEST>: {user_request}  
+      <FUTURE ACTION PLAN>: {future_action_plan}  
+      <RELEVANT UI ELEMENT>: {ui_element_image}  
+      <YOUR RESPONSE>:  
+
+
+  ACTION_PREDICT:
+    HINT:
+      SYSTEM: |
+
+      USER: |-
+        <CURRENT SCREENSHOT>: {screenshot}
+        <NEXT ACTION>: {next_single_action}
+        <USER REQUEST>: {user_request}
+        <YOUR RESPONSE>: 
+
+    ACTION_SPACE:
+      SCREEN_TAG: |-
+        CLICK_ELEMENT:
+          summary: click on the visible ui element on the screen
+          usage:
+            [1] API call: click_element(bbox=)
+            [2] Args:
+              - bbox: 'The bounding box [xmin, ymin, xmax, ymax] of the element to be clicked.'
+            [3] Example: click_element(bbox=[120, 450, 300, 520])
+            [4] Return: None
+
+        SCROLL:
+          summary: move the scrollable content, or open the app drawer
+          explanation: 
+            - Scrolling down typically means moving scrollable content to see what's further down. If content is moving up, you are scrolling down. 
+            - Scrolling up could either open the app drawer, or move back to view the previous content on the same screen.
+          usage:
+            [1] API call: scroll(direction=)
+            [2] Args:
+              - direction: 'Scroll direction. One of ''up'', ''down'', ''left'', ''right''.'
+            [3] Example: scroll(direction="up")
+            [4] Return: None
+
+        INPUT:
+          summary: input text to an editable input area
+          usage:
+            [1] API call: input(text="")
+            [2] Args:
+              - text: 'The text input to the editable input area.'
+            [3] Example: input(text="Hello World")
+            [4] Return: None
+
+        PRESS_ENTER:
+          summary: confirm the input, or submit the input, or start a new line of text
+          usage:
+            [1] API call: press_enter()
+            [2] Args: None
+            [3] Example: press_enter()
+            [4] Return: None
+
+        PRESS_HOME:
+          summary: directly move back to the home screen
+          usage:
+            [1] API call: press_home()
+            [2] Args: None
+            [3] Example: press_home()
+            [4] Return: None
+
+        PRESS_BACK:
+          summary: return to the most recently visited screen or interface
+          usage:
+            [1] API call: press_back()
+            [2] Args: None
+            [3] Example: press_back()
+            [4] Return: None
+
+        STOP:
+          summary: stop and set the state of the task
+          usage:
+            [1] API call: stop(task_status=)
+            [2] Args:
+              - task_status: 'Decide on whether the task is a success or failure. Choose one of ''success'', ''failure''.'
+            [3] Example: stop(task_status="success")
+            [4] Return: None
+
+  ACTION_RESULT:
+    SYSTEM: |-
+      You are a smart and helpful visual assistant that is well trained to manipulate mobile phones.
+      Your task is to explain the results made by last action, and the its influece towards the completion of user request.
+      - You are provided with two screenshots of the moblie phone, one from the last step and one from the current screen.
+      - You are provided with the details of the last action you performed on the last screenshot.
+      - You are required to describe the direct consequences of the last action by comparing the two screenshots.
+      - You are required to judge on whether this action has made progress towards the user request.
+      - You are required to output short and concise sentences, with no more than 50 words in total.
+
+      ## Example 1: "By clicking on the search bar, now I can enter the query into the input area. This helps to complete the user query, because one has to use search engine to find the cheapest chair in walmart."
+      ## Example 2: "By pressing the home button, I have moved back to the home screen. This is necessary because to install the user required app, we must fine the App store first."
+
+    USER: |-
+      <LAST SCREENSHOT>: {before_screenshot}
+      <CURRENT SCREENSHOT>: {after_screenshot}
+      <LAST ACTION>: {last_action}
+      <USER REQUEST>: {user_request}
+      <YOUR RESPONSE>: 

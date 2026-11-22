@@ -1,0 +1,61 @@
+{
+  "model": {
+    "base_url": "http://127.0.0.1:8079/v1",
+    "name": "qwen3-vl-8b-instruct",
+    "api_key_env": "LOCAL_MODEL_API_KEY",
+    "temperature": 0,
+    "max_tokens": 8192,
+    "construction_max_tokens": 32768,
+    "timeout": 1800,
+    "image_max_side": 1024
+  },
+  "memory": {
+    "top_k": 3,
+    "max_images": 2,
+    "max_text_chars": 16000,
+    "online_updates": false,
+    "darwinian_risk_threshold": 0.8
+  },
+  "benchmarks": [
+    "vision2code"
+  ],
+  "baselines": [
+    "no_memory",
+    "raw_multimodal",
+    "ksi_style",
+    "ksi_visual",
+    "magnet_adapted"
+  ],
+  "vision2code": {
+    "rater_max_tokens": 3072,
+    "render_timeout": 30
+  },
+  "sampling": {
+    "seed": 20261023,
+    "history_count": 1,
+    "test_count": 1
+  },
+  "fixed_split_dir": "Experiments/memory_baselines/splits/100_100_seed_20261023",
+  "data_mode": "benchmark_internal_disjoint_100_memory_100_test_fixed_manifest",
+  "prompt_version": "formal_100_100",
+  "retrieval": {
+    "enabled": true,
+    "embedding_url": "http://127.0.0.1:8087",
+    "embedding_model": "/data/pretrained_models/BAAI-bge-large-en-v1.5",
+    "top_n": 20,
+    "query_max_images": 2,
+    "scope_policy": "memory_conditions_v1",
+    "bounded_rerank": true
+  },
+  "memory_construction": {
+    "protocol": "paired_ksi_magnet_v1",
+    "magnet_cluster_cosine": 0.75
+  },
+  "run_name": "qwen3_vl_8b_five_representations_1_1_20261024_v8",
+  "source_run": "qwen3_vl_8b_vision2code_8192_32768_v1_nomemory",
+  "diagnostic_sample": {
+    "construction_id": "ChartQA_test_002183_b6e7675ec75e",
+    "test_id": "ChartQA_test_001587_6cc921047189",
+    "selection_reason": "positive-path diagnostic: first Charts&Plots construction task with score 5 and no truncation; held-out: first Charts&Plots task in original frozen manifest, chosen without inspecting its outcomes. Previous Documents diagnostic retained separately and failed manual quality review. The same test is reused for a retrieval-scope bug regression check; it is a diagnostic/development example, not an untouched held-out performance estimate."
+  }
+}

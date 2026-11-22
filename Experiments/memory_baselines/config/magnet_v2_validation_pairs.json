@@ -1,0 +1,134 @@
+{
+  "mathvision": [
+    {
+      "left": "3036",
+      "right": "1914",
+      "same_workflow": true,
+      "split": "calibration",
+      "reason": "Both compute a shaded region by computing a containing area and subtracting component areas; output forms differ and only the shared subroutine is intended."
+    },
+    {
+      "left": "556",
+      "right": "1470",
+      "same_workflow": false,
+      "split": "calibration",
+      "reason": "Latin-square uniqueness constraints vs multiplication/factor constraints."
+    },
+    {
+      "left": "299",
+      "right": "3036",
+      "same_workflow": false,
+      "split": "calibration",
+      "reason": "Linear-function quadrant analysis vs composite area subtraction."
+    },
+    {
+      "left": "1614",
+      "right": "2951",
+      "same_workflow": false,
+      "split": "validation",
+      "reason": "Angle-bisector/perpendicular equation vs equal-side triangle angle chasing: same topic, different workflow."
+    },
+    {
+      "left": "2885",
+      "right": "1851",
+      "same_workflow": false,
+      "split": "validation",
+      "reason": "Similarity area ratio vs coordinate circle-intersection distance."
+    },
+    {
+      "left": "3013",
+      "right": "1178",
+      "same_workflow": false,
+      "split": "validation",
+      "reason": "Pyramid volume vs removed-cube counting."
+    }
+  ],
+  "vision2code": [
+    {
+      "left": "ChartQA_test_002183_b6e7675ec75e",
+      "right": "ChartQA_test_001995_b7d85746283b",
+      "same_workflow": true,
+      "split": "calibration",
+      "reason": "Single vertical bar series with matching category positions and value annotations; instance years differ."
+    },
+    {
+      "left": "ChartQA_test_001018_99d9c456abfe",
+      "right": "ChartQA_test_000949_d78b49136054",
+      "same_workflow": true,
+      "split": "validation",
+      "reason": "Grouped two-series vertical bars with offset positions, legend and percentage labels."
+    },
+    {
+      "left": "ChartQA_test_002183_b6e7675ec75e",
+      "right": "ChartQA_test_001018_99d9c456abfe",
+      "same_workflow": false,
+      "split": "calibration",
+      "reason": "Single-series vs offset grouped-series construction."
+    },
+    {
+      "left": "ChartQA_test_002183_b6e7675ec75e",
+      "right": "ChemVQA-2K_test_002833_8cce8ce1f0ef",
+      "same_workflow": false,
+      "split": "validation",
+      "reason": "Bar chart vs molecular structure."
+    },
+    {
+      "left": "ChartQA_test_001018_99d9c456abfe",
+      "right": "DocVQA_test_001813_6c590529019a",
+      "same_workflow": false,
+      "split": "validation",
+      "reason": "Grouped chart vs letter text layout."
+    },
+    {
+      "left": "ChartQA_test_002183_b6e7675ec75e",
+      "right": "DocVQA_test_004043_2ed13fe35772",
+      "same_workflow": false,
+      "split": "calibration",
+      "reason": "Chart vs document rendering."
+    }
+  ],
+  "mpdocvqa": [
+    {
+      "left": "35622",
+      "right": "33643",
+      "same_workflow": true,
+      "split": "calibration",
+      "reason": "Recorded page-reader evidence and final field answer for document date, with different historical dates."
+    },
+    {
+      "left": "23785",
+      "right": "3405",
+      "same_workflow": true,
+      "split": "validation",
+      "reason": "Read and return letter date from recorded page evidence."
+    },
+    {
+      "left": "36076",
+      "right": "32954",
+      "same_workflow": false,
+      "split": "calibration",
+      "reason": "Year vs contract identifier."
+    },
+    {
+      "left": "35622",
+      "right": "32954",
+      "same_workflow": false,
+      "split": "validation",
+      "reason": "Date vs contract identifier."
+    },
+    {
+      "left": "17619",
+      "right": "33643",
+      "same_workflow": false,
+      "split": "calibration",
+      "reason": "Person attribution vs date."
+    },
+    {
+      "left": "36776",
+      "right": "1051",
+      "same_workflow": false,
+      "split": "validation",
+      "reason": "Form name vs date."
+    }
+  ]
+}

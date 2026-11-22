@@ -1,0 +1,493 @@
+{
+  "schema": "source_grounded_operations_v1",
+  "skills": {
+    "LIBREOFFICEIMPRESS_Adjust_Text_Bullets_Indentation_Strikethrough_and_Alignment": {
+      "supported_operations": [
+        "format_paragraph_list_alignment"
+      ],
+      "source_quote": "Apply paragraph-level list, alignment, spacing, or strikeout changes to existing slide text and verify the same line on the canvas.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VSCODE_Create_and_Use_Custom_Snippets": {
+      "supported_operations": [
+        "configure_reusable_snippets"
+      ],
+      "source_quote": "Configure reusable snippets rather than one-off code edits. Open the right snippet file, make the requested prefix or body change, and stop only after the snippet suggestion or saved snippet definition visibly confirms the update. Verify both the saved snippet definition and the triggered prefix or autocomplete suggestion when the task asks for reusable snippet behavior.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICEWRITER_Tab_Stops_and_Mixed_Paragraph_Alignment": {
+      "supported_operations": [
+        "configure_tab_stop_positions",
+        "align_paragraphs"
+      ],
+      "source_quote": "Configure ruler units and paragraph tab stops, then verify the paragraph shows the expected tab marker layout or mixed alignment result.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICEWRITER_Format_Selected_Text_Characters": {
+      "supported_operations": [
+        "format_text_characters"
+      ],
+      "source_quote": "Apply character-level changes such as font family, size, bold, italic, underline, subscript, superscript, or highlighting to the current selection.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VSCODE_Edit_Existing_Files_in_the_Editor": {
+      "supported_operations": [
+        "edit_existing_file",
+        "save_existing_file"
+      ],
+      "source_quote": "Work inside an already opened file. Make a precise edit at the requested location, save when the task requires persistence or a new filename, and keep a separate branch for focused rename or refactor flows that never leave the editor context. Keep this skill for precise in-place edits, Save As, and focused refactors. Route large selection-based indent/comment transforms into the bulk-edit sibling skill.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICEWRITER_Cleanup_Highlights_Markers_and_Sentence_Spacing": {
+      "supported_operations": [
+        "clean_text_spacing_markers"
+      ],
+      "source_quote": "Remove stale highlighting or inline markers and use scope-aware replace workflows to clean spacing or split sentence blocks without collapsing unrelated text.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICEIMPRESS_Format_Slide_Text_and_Paragraphs": {
+      "supported_operations": [
+        "format_text_characters"
+      ],
+      "source_quote": "Reformat existing slide text at the character level and verify the change on the canvas before moving on.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICEWRITER_Format_Paragraph_Alignment_and_Spacing": {
+      "supported_operations": [
+        "align_paragraphs",
+        "configure_paragraph_spacing"
+      ],
+      "source_quote": "Open the paragraph controls, change alignment or spacing values, and verify the paragraph block visibly changes on the page.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICEWRITER_Create_and_Format_Tables": {
+      "supported_operations": [
+        "create_table",
+        "edit_table_structure",
+        "format_table"
+      ],
+      "source_quote": "Insert new tables, change row or column structure, and apply table formatting such as fills, borders, or row height adjustments.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VSCODE_Configure_Terminal_and_Debug_Preferences": {
+      "supported_operations": [
+        "configure_terminal_debug_preferences"
+      ],
+      "source_quote": "Handle terminal and debug preferences as a focused settings family. Search for the requested terminal or debug control, change it through the visible UI, and verify the final control values rather than stopping at an open settings panel. Keep terminal/debug settings separate from live run and inspect workflows, but explicitly cover debug session visibility settings such as lazy variables, breakpoints everywhere, and shell-integration rows.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VLC_Control_Playback_Position_Looping_Speed_And_Volume": {
+      "supported_operations": [
+        "control_active_playback"
+      ],
+      "source_quote": "Use VLC playback menus and on-player controls to jump, loop, bookmark, or adjust active playback without drifting into unrelated preference work.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VLC_Configure_Preferences_Hotkeys_Paths_And_Persisted_Defaults": {
+      "supported_operations": [
+        "configure_persistent_hotkey",
+        "configure_persistent_media_path"
+      ],
+      "source_quote": "Use VLC Preferences only for persistent paths, hotkeys, and saved defaults that must survive restart or later playback sessions. Do not load this skill for one-off open, snapshot, wallpaper, fullscreen, or convert tasks.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VLC_Open_Local_Media_And_Verify_Playback_Surface": {
+      "supported_operations": [
+        "open_local_media",
+        "verify_media_playback"
+      ],
+      "source_quote": "Use VLC's shortest local-open path to bring a Desktop or filesystem file onto the VLC playback surface, then verify by visible title, frame, or timeline instead of drifting into preferences or unrelated dialogs.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICEIMPRESS_Edit_Speaker_Notes_and_Notes_Views": {
+      "supported_operations": [
+        "edit_slide_notes"
+      ],
+      "source_quote": "Enter Notes or Master Notes view, place focus in the notes region instead of the slide canvas, and verify the result inside the notes surface.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VLC_Customize_Toolbars_Status_Bar_Advanced_Controls_And_Fullscreen_Controller": {
+      "supported_operations": [
+        "configure_player_layout"
+      ],
+      "source_quote": "Use the View menu and Toolbars Editor for persistent layout work such as status bar, advanced controls, big buttons, and fullscreen-controller visibility. Do not use this skill for the ordinary act of making the current video fullscreen.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "MULTIAPP_Insert_VLC_Captured_Media_Into_An_Impress_Slide": {
+      "supported_operations": [
+        "transfer_media_to_slide"
+      ],
+      "source_quote": "Capture the requested VLC audio or frame and place it onto the target Impress slide.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VLC_Capture_Snapshots_Recordings_And_Verify_Saved_Artifacts": {
+      "supported_operations": [
+        "capture_media_artifact",
+        "verify_saved_media"
+      ],
+      "source_quote": "Use VLC's shortest snapshot, recording, or wallpaper path from the current frame, and finish on a visible output or desktop wallpaper result. Open Preferences only when a persistent destination or format change is explicitly needed.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VLC_Inspect_Codec_Information_Shortcuts_Support_And_Plugins": {
+      "supported_operations": [
+        "inspect_media_information"
+      ],
+      "source_quote": "Use VLC information panels, shortcut views, plugin windows, and support pages when the task is about inspection rather than editing settings or playback.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VLC_Configure_Startup_Interface_Modules_Appearance_And_Instance_Behavior": {
+      "supported_operations": [
+        "configure_player_startup_appearance"
+      ],
+      "source_quote": "Use VLC Interface preferences only for persistent startup, appearance, or instance-behavior changes that must survive restart. Do not load this skill for short playback tasks like open, play, fullscreen, snapshot, or network streaming.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VLC_Manage_Playlists_And_Media_Library": {
+      "supported_operations": [
+        "manage_media_playlist"
+      ],
+      "source_quote": "Use VLC's playlist and media-library surfaces for list organization, directory creation, sorting, and saved playlist artifacts.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Build_Merged_Report_Headers_and_Multi_Row_Layouts": {
+      "supported_operations": [
+        "merge_cell_ranges",
+        "verify_merged_structure"
+      ],
+      "source_quote": "Merge header ranges, handle hidden-cell warnings deliberately, and verify that multi-row report headers still span the intended block after the merge.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Create_Chart_on_Target_Sheet_with_Exact_Title_and_Type": {
+      "supported_operations": [
+        "create_chart_on_sheet"
+      ],
+      "source_quote": "Create a chart on the requested destination sheet while honoring an exact chart title and chart family.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Create_Calc_Pivot_Tables_with_Aggregations_and_Filters": {
+      "supported_operations": [
+        "create_pivot_table"
+      ],
+      "source_quote": "Create Calc pivot tables from the intended source range, place fields into the correct layout buckets, choose non-default aggregations, and verify renamed or filtered pivot output on the result sheet.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Manage_Calc_Worksheets_and_Cross_Sheet_Data": {
+      "supported_operations": [
+        "manage_worksheet_tabs",
+        "transfer_cross_sheet_data"
+      ],
+      "source_quote": "Create, rename, switch, and organize worksheet tabs while moving data between sheets in a controlled way.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Lookup_Reference_and_Keyed_Fill_Formulas": {
+      "supported_operations": [
+        "compute_keyed_lookup"
+      ],
+      "source_quote": "Enter cross-sheet or keyed-reference formulas in the correct destination column, verify the sheet-qualified references, and confirm the visible filled results.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Run_Calc_Statistical_Tests_and_Summaries": {
+      "supported_operations": [
+        "compute_statistical_summary"
+      ],
+      "source_quote": "Run statistical tools or summary functions that are more specialized than ordinary worksheet formulas.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Apply_Revenue_Cost_Discount_Profit_Formulas": {
+      "supported_operations": [
+        "compute_business_metric"
+      ],
+      "source_quote": "Build business-metric columns such as revenue, cost, discount, or profit from visible Calc source columns, then verify the target output column before moving on.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "MULTIAPP_Transfer_Calc_Results_Into_A_Writer_Report": {
+      "supported_operations": [
+        "transfer_table_chart_to_document"
+      ],
+      "source_quote": "Copy a prepared Calc chart, table, range, or named result block into the required Writer report location and verify the inserted report-side result.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Use_Formulas_and_Functions_in_Calc_Cells": {
+      "supported_operations": [
+        "compute_direct_formula",
+        "verify_formula_result"
+      ],
+      "source_quote": "Enter direct Calc formulas or wizard-selected functions in the correct target cell, verify the first result, and only then fill the intended range.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Format_Calc_Numbers_Dates_and_Percentages": {
+      "supported_operations": [
+        "format_numeric_display"
+      ],
+      "source_quote": "Apply numeric, date, time, percentage, fraction, or separator formatting to visible Calc cells and verify the displayed representation.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "MULTIAPP_Add_Or_Adjust_Recurring_Timetable_Slots_In_Calc": {
+      "supported_operations": [
+        "edit_timetable_slot"
+      ],
+      "source_quote": "Place a recurring lecture or class block into the correct timetable slot in Calc and verify the finished block inside the schedule grid.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Format_Calc_Cell_Text_Alignment_and_Borders": {
+      "supported_operations": [
+        "format_cell_appearance"
+      ],
+      "source_quote": "Apply direct cell formatting such as font weight, font size, alignment, fill, and borders, then verify that the requested style landed only on the intended range.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Enable_Data_Validation_Dropdowns_and_Allowed_Values": {
+      "supported_operations": [
+        "configure_cell_validation"
+      ],
+      "source_quote": "Turn Calc cells into validated dropdowns, set the allowed list or criteria correctly, and verify the post-dialog dropdown behavior on the sheet.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Highlight_Weekend_or_Rule_Matched_Cells": {
+      "supported_operations": [
+        "highlight_rule_matching_cells"
+      ],
+      "source_quote": "Highlight cells or rows that match visible weekend or value rules when the end state is a directly visible on-sheet match result rather than a dialog-centric conditional-format authoring flow.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Conditional_Formatting_and_Placeholder_Handling": {
+      "supported_operations": [
+        "author_conditional_format"
+      ],
+      "source_quote": "Author conditional-format rules, handle placeholder values such as #N/A, and verify both the dialog logic and the visible styled result when Calc tasks depend on rule-driven formatting.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Fill_Copy_Paste_and_Split_Calc_Data": {
+      "supported_operations": [
+        "copy_fill_cells",
+        "split_delimited_text"
+      ],
+      "source_quote": "Copy, paste, fill down, duplicate rows, or split text into columns while protecting existing values and keeping the destination range aligned with the task.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Sort_and_Filter_Calc_Tables": {
+      "supported_operations": [
+        "sort_filter_table"
+      ],
+      "source_quote": "Apply sorts, auto-filters, and range filters to Calc tables and verify the visible filtered rows or ordering on the sheet.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICEWRITER_Apply_Case_Transforms_and_Rule_Based_Text_Formatting": {
+      "supported_operations": [
+        "transform_text_case"
+      ],
+      "source_quote": "Convert selected text between uppercase, lowercase, sentence case, or capitalize-each-word variants and verify the requested text form is visible on the page.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Create_Sparklines_or_Cell_Embedded_Trend_Visuals": {
+      "supported_operations": [
+        "create_in_cell_visualization"
+      ],
+      "source_quote": "Create compact cell-embedded trend or intensity visuals such as sparklines, data bars, or color scales when the task wants an in-cell visual result instead of a full chart canvas.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "THUNDERBIRD_Apply_Automatic_Filters_To_Subfolders": {
+      "supported_operations": [
+        "configure_subfolder_filter_rule"
+      ],
+      "source_quote": "Create or edit concrete Thunderbird rules that target visible subfolders and stay enabled for automatic runs; do not use this skill for prefs-only subfolder auto-apply tasks.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "THUNDERBIRD_Configure_Server_Retrieval_Retention_and_Cache_Settings": {
+      "supported_operations": [
+        "configure_mail_server_preferences"
+      ],
+      "source_quote": "Change Thunderbird server retrieval or closely related persisted account prefs, including incoming-filter auto-apply behavior, and verify the saved values.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "THUNDERBIRD_Configure_Thunderbird_Mail_Composition_Preferences": {
+      "supported_operations": [
+        "configure_composition_defaults",
+        "configure_autosave"
+      ],
+      "source_quote": "Configure Thunderbird global composition defaults such as autosave, spellcheck, link previews, sending format, and address-handling behavior.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VSCODE_Add_Remove_and_Save_Multi_Root_Workspaces": {
+      "supported_operations": [
+        "manage_workspace_roots"
+      ],
+      "source_quote": "Modify or persist the workspace root set itself. Save the current shell when needed, add or remove roots inside the same window, and stop only after Explorer or the saved workspace shell confirms the intended result. Treat workspace-root editing as a different workflow from opening a plain folder or loading one saved `.code-workspace` shell, and treat multiple saved workspaces in one window as a boundary case rather than ordinary multi-root editing.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "CHROME_Manage_Bookmarks_Reading_List_And_Shortcuts": {
+      "supported_operations": [
+        "save_page_bookmark_shortcut"
+      ],
+      "source_quote": "Save the current Chrome page, choose or create a destination, and verify the saved result. Use the image cards only when the current UI genuinely matches the bookmark states they show.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "VLC_Convert_Or_Extract_Audio_To_MP3": {
+      "supported_operations": [
+        "extract_media_to_mp3"
+      ],
+      "source_quote": "Use VLC's Convert/Save flow to extract MP3 with the exact requested destination path and filename. Avoid drifting into Preferences unless a persistent saved default is explicitly required.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICEWRITER_Open_Document_Sharing_and_Remote_Save_Surfaces": {
+      "supported_operations": [
+        "open_remote_save_surface"
+      ],
+      "source_quote": "Reach Writer's remote save and file services surfaces that precede collaboration so the agent can stop guessing across File, Tools, and service-management branches.",
+      "source": "original_frozen_candidate_descriptor",
+      "scope_note": "Other operations are unestablished; related vocabulary is not support."
+    },
+    "LIBREOFFICECALC_Format_Calc_Chart_Elements_and_Series": {
+      "supported_operations": [
+        "format_existing_chart"
+      ],
+      "source_quote": "Adjust chart legends, axes, series styles, labels, line types, and secondary-axis settings after the chart already exists.",
+      "source": "frozen_supplement_candidate_descriptor",
+      "scope_note": "Only the described operation is established; preserve original limitations."
+    },
+    "LIBREOFFICEIMPRESS_Insert_and_Edit_Charts": {
+      "supported_operations": [
+        "insert_slide_chart"
+      ],
+      "source_quote": "Insert a chart, open chart-specific editing surfaces, and verify the resulting chart data state before leaving chart editing.",
+      "source": "frozen_supplement_candidate_descriptor",
+      "scope_note": "Only the described operation is established; preserve original limitations."
+    },
+    "LIBREOFFICECALC_Insert_and_Structure_Calc_Charts": {
+      "supported_operations": [
+        "create_chart_on_sheet"
+      ],
+      "source_quote": "Insert chart types, choose source ranges, and keep the wizard or chart canvas aligned with the requested structure before later formatting steps.",
+      "source": "frozen_supplement_candidate_descriptor",
+      "scope_note": "Only the described operation is established; preserve original limitations."
+    },
+    "LIBREOFFICECALC_Manage_Calc_Rows_Columns_Freeze_and_Split_Views": {
+      "supported_operations": [
+        "manage_rows_columns",
+        "freeze_worksheet_view"
+      ],
+      "source_quote": "Resize, hide, move, or freeze worksheet rows and columns and handle split or zoom-like view controls without mixing them into formatting-only tasks.",
+      "source": "frozen_supplement_candidate_descriptor",
+      "scope_note": "Only the described operation is established; preserve original limitations."
+    },
+    "LIBREOFFICEIMPRESS_Insert_and_Format_Tables": {
+      "supported_operations": [
+        "create_slide_table",
+        "edit_table_structure"
+      ],
+      "source_quote": "Insert a table, edit cells or headers while the table stays active, and verify the resulting structure on the slide canvas.",
+      "source": "frozen_supplement_candidate_descriptor",
+      "scope_note": "Only the described operation is established; preserve original limitations."
+    },
+    "LIBREOFFICECALC_Protect_Calc_Sheets_and_Allowed_Actions": {
+      "supported_operations": [
+        "protect_worksheet"
+      ],
+      "source_quote": "Protect worksheets, set passwords, and control allowed actions for protected sheets.",
+      "source": "frozen_supplement_candidate_descriptor",
+      "scope_note": "Only the described operation is established; preserve original limitations."
+    },
+    "LIBREOFFICEWRITER_Insert_Page_Numbers_Headers_Footers_and_Blank_Pages": {
+      "supported_operations": [
+        "edit_page_structure"
+      ],
+      "source_quote": "Enable page-style headers or footers, insert page numbers, add blank pages, and verify the structural result on the document canvas.",
+      "source": "frozen_supplement_candidate_descriptor",
+      "scope_note": "Only the described operation is established; preserve original limitations."
+    },
+    "LIBREOFFICECALC_Text_Cleaning_Case_Transforms_and_Normalization": {
+      "supported_operations": [
+        "transform_text_case"
+      ],
+      "source_quote": "Transform selected Calc text to uppercase, lowercase, or capitalize-each-word forms and keep text-cleanup workflows aligned with the requested normalization target.",
+      "source": "frozen_supplement_candidate_descriptor",
+      "scope_note": "Only the described operation is established; preserve original limitations."
+    },
+    "LIBREOFFICEWRITER_Prepare_Structured_Text_For_Sorting_and_Deduplication": {
+      "supported_operations": [
+        "prepare_sort_deduplicate_text"
+      ],
+      "source_quote": "Convert record-like text into a sortable table and reach the sort surface so duplicate-heavy records can be grouped or cleaned instead of being forced through text-to-table alone.",
+      "source": "frozen_supplement_candidate_descriptor",
+      "scope_note": "Only the described operation is established; preserve original limitations."
+    },
+    "LIBREOFFICEWRITER_Regex_Based_Text_Classification_and_Batch_Formatting": {
+      "supported_operations": [
+        "regex_batch_format_text"
+      ],
+      "source_quote": "Use regular expressions inside Find and Replace to classify repeated text patterns, then apply formatting changes in controlled passes rather than one literal replacement.",
+      "source": "frozen_supplement_candidate_descriptor",
+      "scope_note": "Only the described operation is established; preserve original limitations."
+    },
+    "LIBREOFFICECALC_Edit_Calc_Cell_Values_Comments_and_Find_Replace": {
+      "supported_operations": [
+        "edit_cell_literal_content"
+      ],
+      "source_quote": "Type or replace cell content, add labels, manage comments, and use find/replace flows when the task is about literal cell edits.",
+      "source": "frozen_supplement_candidate_descriptor",
+      "scope_note": "Only the described operation is established; preserve original limitations."
+    },
+    "OS_Copy_Matching_Files_Or_Directory_Hierarchy_In_Terminal": {
+      "supported_operations": [
+        "flat_copy_matching_files"
+      ],
+      "source_quote": "Flat-copy matching files into a destination directory from Terminal and verify the copied file set without accidentally preserving the whole source tree.",
+      "source": "frozen_supplement_candidate_descriptor",
+      "scope_note": "Only the described operation is established; preserve original limitations."
+    }
+  },
+  "note": "No task IDs or answers in skill labels. Explicit operations extracted from descriptors; no per-task applicability labels.",
+  "ontology_extensions": [
+    {
+      "operation": "indent_selected_lines",
+      "source": "Datasets/MMSkills/ubuntu/vs_code/VSCODE_Bulk_Edit_And_Block_Transformations/SKILL.md",
+      "quote": "Indent or transform a selected block of lines."
+    }
+  ],
+  "unknown_operation": "Use when the requested operation is not represented in the vocabulary."
+}

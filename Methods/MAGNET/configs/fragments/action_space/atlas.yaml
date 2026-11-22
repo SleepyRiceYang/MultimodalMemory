@@ -1,0 +1,75 @@
+PROMPTS: 
+  
+  ACTION_SPACE:
+    android-in-the-zoo: |
+      Custom Action 1: PRESS_ENTER
+          - purpose: Press a enter button to confirm the input, or submit the input, or start a new line of text. 
+          - format: PRESS_ENTER
+          - example usage: PRESS_ENTER
+      
+      Custom Action 2: PRESS_HOME
+          - purpose: Press a home button to navigate to the home page.
+          - format: PRESS_HOME
+          - example usage: PRESS_HOME
+
+      Custom Action 3: PRESS_BACK
+          - purpose: Press a back button to navigate to the previous screen.
+          - format: PRESS_BACK
+          - example usage: PRESS_BACK
+
+      Custom Action 4: STOP
+          - purpose: Stop and set the state of the task.
+          - format: STOP [task_status (SUCCESS/FAILURE)]
+          - example usage: STOP [SUCCESS]
+
+    odyssey: |
+      Custom Action 1: LONG_PRESS
+          - purpose: long press the visible element on the screen. 
+          - format: LONG_PRESS <point>[[x-axis, y-axis]]</point>
+          - example usage: LONG_PRESS <point>[[101, 872]]</point>
+
+      Custom Action 1: PRESS_ENTER
+          - purpose: Press a enter button to confirm the input, or submit the input, or start a new line of text. 
+          - format: PRESS_ENTER
+          - example usage: PRESS_ENTER
+      
+      Custom Action 2: PRESS_HOME
+          - purpose: Press a home button to navigate to the home page.
+          - format: PRESS_HOME
+          - example usage: PRESS_HOME
+
+      Custom Action 3: PRESS_BACK
+          - purpose: Press a back button to navigate to the previous screen.
+          - format: PRESS_BACK
+          - example usage: PRESS_BACK
+
+      Custom Action 4: PRESS_SWITCH
+          - purpose: open the recent apps screen to switch between running applications.
+          - format: PRESS_SWITCH
+          - example usage: PRESS_SWITCH
+
+      Custom Action 4: STOP
+          - purpose: Stop and set the state of the task.
+          - format: STOP [task_status (SUCCESS/FAILURE)]
+          - example usage: STOP [SUCCESS]
+
+    amex: |
+      Custom Action 1: PRESS_ENTER
+          - purpose: Press a enter button to confirm the input, or submit the input, or start a new line of text. 
+          - format: PRESS_ENTER
+          - example usage: PRESS_ENTER
+      
+      Custom Action 2: PRESS_HOME
+          - purpose: Press a home button to navigate to the home page.
+          - format: PRESS_HOME
+          - example usage: PRESS_HOME
+
+      Custom Action 3: PRESS_BACK
+          - purpose: Press a back button to navigate to the previous screen.
+          - format: PRESS_BACK
+          - example usage: PRESS_BACK
+
+      Custom Action 4: STOP
+          - purpose: Stop and set the state of the task.
+          - format: STOP [task_status (SUCCESS/FAILURE)]
+          - example usage: STOP [SUCCESS]

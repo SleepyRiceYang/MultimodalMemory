@@ -1,0 +1,91 @@
+{
+  "seed": 20261023,
+  "tasks_per_set": 100,
+  "dev": "not included in this initial experiment",
+  "benchmarks": {
+    "mathvision": {
+      "difficulty_quotas_per_set": {
+        "1": 8,
+        "2": 24,
+        "3": 18,
+        "4": 27,
+        "5": 23
+      },
+      "memory_levels": {
+        "2": 24,
+        "4": 27,
+        "5": 23,
+        "1": 8,
+        "3": 18
+      },
+      "test_levels": {
+        "2": 24,
+        "4": 27,
+        "5": 23,
+        "1": 8,
+        "3": 18
+      },
+      "memory_subjects": 16,
+      "test_subjects": 16
+    },
+    "mpdocvqa": {
+      "page_bin_quotas_per_set": {
+        "01-02": 51,
+        "03-05": 19,
+        "06-10": 13,
+        "11-20": 17
+      },
+      "memory_page_bins": {
+        "11-20": 17,
+        "06-10": 13,
+        "03-05": 19,
+        "01-02": 51
+      },
+      "test_page_bins": {
+        "01-02": 51,
+        "03-05": 19,
+        "11-20": 17,
+        "06-10": 13
+      },
+      "unique_memory_docs": 100,
+      "unique_test_docs": 100,
+      "max_memory_pages": 20,
+      "max_test_pages": 20
+    },
+    "vision2code": {
+      "source_quotas_per_set": {
+        "ChartQA": 9,
+        "ChemVQA-2K": 13,
+        "DocVQA": 14,
+        "EEE-Bench": 4,
+        "GEOQA_8K_R1V": 4,
+        "Geoperception": 7,
+        "Graph-Algorithms": 8,
+        "OlympiadBench": 5,
+        "Physics": 6,
+        "dvqa": 8,
+        "figureqa": 8,
+        "geometry3k": 4,
+        "matplotlib": 2,
+        "spatialvlm_qa": 8
+      },
+      "memory_domains": {
+        "Charts&Plots": 27,
+        "Science": 23,
+        "Documents": 14,
+        "Geometry": 20,
+        "Graphs": 8,
+        "Spatial": 8
+      },
+      "test_domains": {
+        "Charts&Plots": 27,
+        "Science": 23,
+        "Documents": 14,
+        "Geometry": 20,
+        "Graphs": 8,
+        "Spatial": 8
+      },
+      "available_local_test_images": 1977
+    }
+  }
+}

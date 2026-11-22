@@ -1,0 +1,6 @@
+MODEL:
+  NAME: "qwenvl-coat"
+  QWENVL_API_KEY: ""
+  QWENVL_API_URL: "http://localhost:8182/v1"
+  QWENVL_MODEL: Qwen2.5-VL-32B
+  MAX_IMAGE_SIDE: 1024
